@@ -1,0 +1,4185 @@
+{
+ "categories": [
+  {
+   "id": "DEP",
+   "name": "CNS Depressants",
+   "short": "Depressants",
+   "color": "#5B8CFF",
+   "desc": "Slow the operation of the brain. Includes alcohol, barbiturates, benzodiazepines, GHB, Soma, many antidepressants and antipsychotics."
+  },
+  {
+   "id": "STI",
+   "name": "CNS Stimulants",
+   "short": "Stimulants",
+   "color": "#FF6B4A",
+   "desc": "Accelerate the heart and brain. Includes cocaine, amphetamines, methamphetamine, methylphenidate and synthetic cathinones."
+  },
+  {
+   "id": "HAL",
+   "name": "Hallucinogens",
+   "short": "Hallucinogens",
+   "color": "#C77DFF",
+   "desc": "Alter perception, sensation, thinking and emotion. Includes LSD, psilocybin, mescaline, DMT and MDMA."
+  },
+  {
+   "id": "DA",
+   "name": "Dissociative Anesthetics",
+   "short": "Dissociatives",
+   "color": "#FFC145",
+   "desc": "Inhibit pain by cutting off or dissociating the brain’s perception of pain. Includes PCP, its analogs, ketamine and dextromethorphan."
+  },
+  {
+   "id": "NA",
+   "name": "Narcotic Analgesics",
+   "short": "Narcotics",
+   "color": "#3DDC97",
+   "desc": "Relieve pain, induce euphoria and create mood changes. Includes opium derivatives and synthetic opioids such as fentanyl."
+  },
+  {
+   "id": "INH",
+   "name": "Inhalants",
+   "short": "Inhalants",
+   "color": "#4FD1E8",
+   "desc": "Breathable chemicals that produce mind-altering results: volatile solvents, aerosols and anesthetic gases."
+  },
+  {
+   "id": "CAN",
+   "name": "Cannabis",
+   "short": "Cannabis",
+   "color": "#8BD35B",
+   "desc": "Cannabis sativa products and synthetic cannabinoids. Primary active ingredient delta-9 THC."
+  }
+ ],
+ "matrixRows": [
+  {
+   "k": "hgn",
+   "label": "HGN"
+  },
+  {
+   "k": "vgn",
+   "label": "Vertical Nystagmus"
+  },
+  {
+   "k": "loc",
+   "label": "Lack of Convergence"
+  },
+  {
+   "k": "pupil",
+   "label": "Pupil Size"
+  },
+  {
+   "k": "rtl",
+   "label": "Reaction to Light"
+  },
+  {
+   "k": "pulse",
+   "label": "Pulse Rate"
+  },
+  {
+   "k": "bp",
+   "label": "Blood Pressure"
+  },
+  {
+   "k": "temp",
+   "label": "Body Temperature"
+  },
+  {
+   "k": "tone",
+   "label": "Muscle Tone"
+  }
+ ],
+ "matrix": {
+  "DEP": {
+   "hgn": {
+    "t": "Present",
+    "v": [
+     "present"
+    ]
+   },
+   "vgn": {
+    "t": "Present*",
+    "v": [
+     "present",
+     "none"
+    ],
+    "fn": "*"
+   },
+   "loc": {
+    "t": "Present",
+    "v": [
+     "present"
+    ]
+   },
+   "pupil": {
+    "t": "Normal (1)",
+    "v": [
+     "normal"
+    ],
+    "alt": [
+     "dilated"
+    ],
+    "fn": "1"
+   },
+   "rtl": {
+    "t": "Slow",
+    "v": [
+     "slow"
+    ]
+   },
+   "pulse": {
+    "t": "Down (2)",
+    "v": [
+     "down"
+    ],
+    "alt": [
+     "up"
+    ],
+    "fn": "2"
+   },
+   "bp": {
+    "t": "Down",
+    "v": [
+     "down"
+    ]
+   },
+   "temp": {
+    "t": "Normal",
+    "v": [
+     "normal"
+    ]
+   },
+   "tone": {
+    "t": "Flaccid",
+    "v": [
+     "flaccid"
+    ],
+    "alt": [
+     "normal"
+    ]
+   }
+  },
+  "STI": {
+   "hgn": {
+    "t": "None",
+    "v": [
+     "none"
+    ]
+   },
+   "vgn": {
+    "t": "None",
+    "v": [
+     "none"
+    ]
+   },
+   "loc": {
+    "t": "None",
+    "v": [
+     "none"
+    ]
+   },
+   "pupil": {
+    "t": "Dilated",
+    "v": [
+     "dilated"
+    ]
+   },
+   "rtl": {
+    "t": "Slow",
+    "v": [
+     "slow"
+    ]
+   },
+   "pulse": {
+    "t": "Up",
+    "v": [
+     "up"
+    ]
+   },
+   "bp": {
+    "t": "Up",
+    "v": [
+     "up"
+    ]
+   },
+   "temp": {
+    "t": "Up",
+    "v": [
+     "up"
+    ]
+   },
+   "tone": {
+    "t": "Rigid",
+    "v": [
+     "rigid"
+    ]
+   }
+  },
+  "HAL": {
+   "hgn": {
+    "t": "None",
+    "v": [
+     "none"
+    ]
+   },
+   "vgn": {
+    "t": "None",
+    "v": [
+     "none"
+    ]
+   },
+   "loc": {
+    "t": "None",
+    "v": [
+     "none"
+    ]
+   },
+   "pupil": {
+    "t": "Dilated",
+    "v": [
+     "dilated"
+    ]
+   },
+   "rtl": {
+    "t": "Normal (3)",
+    "v": [
+     "normal"
+    ],
+    "alt": [
+     "slow"
+    ],
+    "fn": "3"
+   },
+   "pulse": {
+    "t": "Up",
+    "v": [
+     "up"
+    ]
+   },
+   "bp": {
+    "t": "Up",
+    "v": [
+     "up"
+    ]
+   },
+   "temp": {
+    "t": "Up",
+    "v": [
+     "up"
+    ]
+   },
+   "tone": {
+    "t": "Rigid",
+    "v": [
+     "rigid"
+    ]
+   }
+  },
+  "DA": {
+   "hgn": {
+    "t": "Present",
+    "v": [
+     "present"
+    ]
+   },
+   "vgn": {
+    "t": "Present",
+    "v": [
+     "present"
+    ]
+   },
+   "loc": {
+    "t": "Present",
+    "v": [
+     "present"
+    ]
+   },
+   "pupil": {
+    "t": "Normal",
+    "v": [
+     "normal"
+    ]
+   },
+   "rtl": {
+    "t": "Normal",
+    "v": [
+     "normal"
+    ]
+   },
+   "pulse": {
+    "t": "Up",
+    "v": [
+     "up"
+    ]
+   },
+   "bp": {
+    "t": "Up",
+    "v": [
+     "up"
+    ]
+   },
+   "temp": {
+    "t": "Up",
+    "v": [
+     "up"
+    ]
+   },
+   "tone": {
+    "t": "Rigid",
+    "v": [
+     "rigid"
+    ]
+   }
+  },
+  "NA": {
+   "hgn": {
+    "t": "None",
+    "v": [
+     "none"
+    ]
+   },
+   "vgn": {
+    "t": "None",
+    "v": [
+     "none"
+    ]
+   },
+   "loc": {
+    "t": "None",
+    "v": [
+     "none"
+    ]
+   },
+   "pupil": {
+    "t": "Constricted",
+    "v": [
+     "constricted"
+    ]
+   },
+   "rtl": {
+    "t": "Little or none visible",
+    "v": [
+     "none",
+     "slow"
+    ]
+   },
+   "pulse": {
+    "t": "Down",
+    "v": [
+     "down"
+    ]
+   },
+   "bp": {
+    "t": "Down",
+    "v": [
+     "down"
+    ]
+   },
+   "temp": {
+    "t": "Down",
+    "v": [
+     "down"
+    ]
+   },
+   "tone": {
+    "t": "Normal / Flaccid",
+    "v": [
+     "normal",
+     "flaccid"
+    ]
+   }
+  },
+  "INH": {
+   "hgn": {
+    "t": "Present",
+    "v": [
+     "present"
+    ]
+   },
+   "vgn": {
+    "t": "Present*",
+    "v": [
+     "present",
+     "none"
+    ],
+    "fn": "*"
+   },
+   "loc": {
+    "t": "Present",
+    "v": [
+     "present"
+    ]
+   },
+   "pupil": {
+    "t": "Normal (4)",
+    "v": [
+     "normal"
+    ],
+    "alt": [
+     "dilated"
+    ],
+    "fn": "4"
+   },
+   "rtl": {
+    "t": "Slow",
+    "v": [
+     "slow"
+    ]
+   },
+   "pulse": {
+    "t": "Up",
+    "v": [
+     "up"
+    ]
+   },
+   "bp": {
+    "t": "Up / Down (5)",
+    "v": [
+     "up",
+     "down"
+    ],
+    "fn": "5"
+   },
+   "temp": {
+    "t": "Up / Down / Normal",
+    "v": [
+     "up",
+     "down",
+     "normal"
+    ]
+   },
+   "tone": {
+    "t": "Normal / Flaccid",
+    "v": [
+     "normal",
+     "flaccid"
+    ]
+   }
+  },
+  "CAN": {
+   "hgn": {
+    "t": "None",
+    "v": [
+     "none"
+    ]
+   },
+   "vgn": {
+    "t": "None",
+    "v": [
+     "none"
+    ]
+   },
+   "loc": {
+    "t": "Present",
+    "v": [
+     "present"
+    ]
+   },
+   "pupil": {
+    "t": "Dilated (6)",
+    "v": [
+     "dilated"
+    ],
+    "alt": [
+     "normal"
+    ],
+    "fn": "6"
+   },
+   "rtl": {
+    "t": "Normal",
+    "v": [
+     "normal"
+    ]
+   },
+   "pulse": {
+    "t": "Up",
+    "v": [
+     "up"
+    ]
+   },
+   "bp": {
+    "t": "Up",
+    "v": [
+     "up"
+    ]
+   },
+   "temp": {
+    "t": "Normal",
+    "v": [
+     "normal"
+    ]
+   },
+   "tone": {
+    "t": "Normal",
+    "v": [
+     "normal"
+    ]
+   }
+  }
+ },
+ "footnotes": {
+  "1": "Soma, Quaaludes and some antidepressants usually dilate pupils.",
+  "2": "Quaaludes, alcohol (ETOH) and some antidepressants may elevate pulse.",
+  "3": "Certain psychedelic amphetamines (e.g., MDMA) may cause slowing of reaction to light.",
+  "4": "Pupils normal but may be dilated.",
+  "5": "Blood pressure down with anesthetic gases; up with volatile solvents and aerosols.",
+  "6": "Pupil size possibly normal.",
+  "*": "Vertical nystagmus: present with high doses for that individual."
+ },
+ "general": {
+  "DEP": [
+   "Uncoordinated",
+   "Drunk-like behavior",
+   "Drowsy / sluggish",
+   "Disoriented",
+   "Thick, slurred speech",
+   "Odor of alcohol (if ETOH)"
+  ],
+  "STI": [
+   "Restlessness",
+   "Body tremors",
+   "Talkative",
+   "Excited",
+   "Euphoric",
+   "Exaggerated reflexes",
+   "Anxiety",
+   "Grinding teeth (bruxism)",
+   "Redness to nasal area",
+   "Runny nose",
+   "Loss of appetite",
+   "Insomnia",
+   "Increased alertness",
+   "Dry mouth",
+   "Irritability"
+  ],
+  "HAL": [
+   "Dazed appearance",
+   "Body tremors",
+   "Uncoordinated",
+   "Perspiring",
+   "Disoriented",
+   "Paranoia",
+   "Difficulty in speech",
+   "Nausea",
+   "Piloerection (goose bumps)",
+   "Hallucinations",
+   "Synesthesia",
+   "Memory loss"
+  ],
+  "DA": [
+   "Perspiring",
+   "Warm to the touch",
+   "Blank stare",
+   "Very early angle of HGN onset",
+   "Difficulty in speech",
+   "Incomplete verbal responses",
+   "Repetitive speech",
+   "Increased pain threshold",
+   "Cyclic behavior",
+   "Confused / agitated",
+   "Hallucinations",
+   "Possibly violent and combative",
+   "Chemical odor (PCP)",
+   "Moon walking"
+  ],
+  "NA": [
+   "Ptosis (droopy eyelids)",
+   "\"On the nod\"",
+   "Drowsiness",
+   "Depressed reflexes",
+   "Low, raspy, slow speech",
+   "Dry mouth",
+   "Facial itching",
+   "Euphoria",
+   "Fresh puncture marks",
+   "Nausea",
+   "Track marks"
+  ],
+  "INH": [
+   "Residue of substance around nose and mouth",
+   "Odor of substance",
+   "Possible nausea",
+   "Slurred speech",
+   "Disorientation",
+   "Confusion",
+   "Bloodshot, watery eyes",
+   "Lack of muscle control",
+   "Flushed face",
+   "Non-communicative",
+   "Intense headaches"
+  ],
+  "CAN": [
+   "Marked reddening of conjunctiva",
+   "Odor of marijuana",
+   "Marijuana debris in mouth",
+   "Body tremors",
+   "Eyelid tremors",
+   "Relaxed inhibitions",
+   "Increased appetite",
+   "Impaired perception of time and distance",
+   "Disorientation",
+   "Possible paranoia"
+  ]
+ },
+ "onset": {
+  "DEP": "Varies by substance",
+  "STI": "Cocaine: 5–90 min; meth: 4–12 h",
+  "HAL": "LSD: 10–12 h; psilocybin 4–6 h",
+  "DA": "PCP: onset 1–5 min smoked; effects 4–6 h",
+  "NA": "Heroin: 4–6 h; methadone up to 24 h",
+  "INH": "Volatile solvents up to 6–8 h; anesthetic gases very short",
+  "CAN": "Smoked: 2–3 h (impairment may last longer); edibles longer"
+ },
+ "admin": {
+  "DEP": "Oral, injected",
+  "STI": "Insufflated, smoked, injected, oral",
+  "HAL": "Oral, insufflated, smoked, injected, transdermal",
+  "DA": "Smoked, oral, insufflated, injected, eye drops",
+  "NA": "Injected, oral, smoked, insufflated, transdermal",
+  "INH": "Inhaled (sniffing, huffing, bagging)",
+  "CAN": "Smoked, oral, vaped"
+ },
+ "overdose": {
+  "DEP": "Shallow breathing, clammy skin, dilated pupils, weak rapid pulse, coma",
+  "STI": "Agitation, hyperthermia, hallucinations, convulsions, possible death",
+  "HAL": "Longer, more intense episodes, psychosis, possible death",
+  "DA": "Longer, more intense episodes; hyperthermia; seizures",
+  "NA": "Slow shallow breathing, clammy skin, convulsions, coma, possible death",
+  "INH": "Coma, sudden sniffing death syndrome (cardiac arrhythmia)",
+  "CAN": "Fatigue, paranoia, possible psychosis",
+  "NONE": "See product labeling"
+ },
+ "substances": [
+  {
+   "id": "alcohol",
+   "name": "Alcohol",
+   "official": "Ethanol (ETOH)",
+   "street": [
+    "Booze",
+    "Juice",
+    "Sauce"
+   ],
+   "cat": "DEP",
+   "sched": "Not scheduled",
+   "rx": "OTC (age-restricted)",
+   "use": "None systemically (topical antiseptic)",
+   "dose": "~14 g ethanol per U.S. standard drink",
+   "onset": "15–45 min",
+   "duration": "Eliminated ≈0.015 g/dL per hour",
+   "routes": "Oral",
+   "abuse": 3,
+   "history": "The most common impairing substance on U.S. roads; per se limit 0.08 g/dL in 49 states and 0.05 g/dL in Utah (since 2018).",
+   "price": "Retail",
+   "flags": {
+    "pulse": "May ELEVATE pulse (Matrix fn 2)"
+   },
+   "type": "OTC"
+  },
+  {
+   "id": "alprazolam",
+   "name": "Alprazolam",
+   "official": "Alprazolam (Xanax)",
+   "street": [
+    "Xannies",
+    "Bars",
+    "Z-bars",
+    "Planks"
+   ],
+   "cat": "DEP",
+   "sched": "Schedule IV",
+   "rx": "Rx",
+   "use": "Anxiety and panic disorder",
+   "dose": "0.25–4 mg/day (panic up to 10 mg)",
+   "onset": "20–60 min",
+   "duration": "6–12 h",
+   "routes": "Oral, insufflated",
+   "abuse": 4,
+   "history": "FDA approved in 1981. Counterfeit \"Xanax bars\" pressed with fentanyl or bromazolam are frequently seized.",
+   "price": "$2–$10 per tablet",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "diazepam",
+   "name": "Diazepam",
+   "official": "Diazepam (Valium)",
+   "street": [
+    "Vals",
+    "Blues",
+    "Downers"
+   ],
+   "cat": "DEP",
+   "sched": "Schedule IV",
+   "rx": "Rx",
+   "use": "Anxiety, muscle spasm, alcohol withdrawal, seizures",
+   "dose": "2–10 mg 2–4×/day",
+   "onset": "30–60 min",
+   "duration": "Long; half-life 20–100 h including metabolite",
+   "routes": "Oral, IV, rectal",
+   "abuse": 3,
+   "history": "Introduced by Roche in 1963; among the most prescribed drugs of the 1970s.",
+   "price": "$1–$5 per tablet",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "clonazepam",
+   "name": "Clonazepam",
+   "official": "Clonazepam (Klonopin)",
+   "street": [
+    "K-pins",
+    "Pins",
+    "Super Valium"
+   ],
+   "cat": "DEP",
+   "sched": "Schedule IV",
+   "rx": "Rx",
+   "use": "Panic disorder, seizure disorders",
+   "dose": "0.25–4 mg/day",
+   "onset": "20–60 min",
+   "duration": "6–12 h or more",
+   "routes": "Oral",
+   "abuse": 3,
+   "history": "Long-acting benzodiazepine marketed in the U.S. since 1975.",
+   "price": "$2–$5 per tablet",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "lorazepam",
+   "name": "Lorazepam",
+   "official": "Lorazepam (Ativan)",
+   "street": [
+    "Ativan",
+    "Downers"
+   ],
+   "cat": "DEP",
+   "sched": "Schedule IV",
+   "rx": "Rx",
+   "use": "Anxiety, status epilepticus, sedation",
+   "dose": "0.5–2 mg 2–3×/day",
+   "onset": "15–30 min",
+   "duration": "6–8 h",
+   "routes": "Oral, IV, IM",
+   "abuse": 3,
+   "history": "Widely used in hospitals for agitation and seizures.",
+   "price": "$2–$5 per tablet",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "zolpidem",
+   "name": "Zolpidem",
+   "official": "Zolpidem (Ambien)",
+   "street": [
+    "A-minus",
+    "Zombie pills",
+    "No-go pills"
+   ],
+   "cat": "DEP",
+   "sched": "Schedule IV",
+   "rx": "Rx",
+   "use": "Short-term insomnia",
+   "dose": "5–10 mg at bedtime (5 mg starting dose for women per FDA, 2013)",
+   "onset": "~30 min",
+   "duration": "6–8 h; next-morning impairment possible",
+   "routes": "Oral",
+   "abuse": 3,
+   "history": "FDA lowered recommended doses in 2013 because of next-morning driving impairment; complex sleep behaviors such as sleep-driving carry a boxed warning (2019).",
+   "price": "$2–$5 per tablet",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "carisoprodol",
+   "name": "Carisoprodol",
+   "official": "Carisoprodol (Soma)",
+   "street": [
+    "Soma",
+    "Las Vegas cocktail (with hydrocodone)",
+    "Holy Trinity (with opioid + benzo)"
+   ],
+   "cat": "DEP",
+   "sched": "Schedule IV",
+   "rx": "Rx",
+   "use": "Acute musculoskeletal pain",
+   "dose": "250–350 mg 3×/day and at bedtime",
+   "onset": "~30 min",
+   "duration": "4–6 h",
+   "routes": "Oral",
+   "abuse": 3,
+   "history": "Metabolized to meprobamate. Placed in federal Schedule IV in 2012.",
+   "price": "$2–$6 per tablet",
+   "flags": {
+    "pupil": "Usually DILATES pupils (Matrix fn 1)"
+   },
+   "type": "Prescription"
+  },
+  {
+   "id": "methaqualone",
+   "name": "Methaqualone",
+   "official": "Methaqualone (Quaalude)",
+   "street": [
+    "Ludes",
+    "Sopors",
+    "Mandrax"
+   ],
+   "cat": "DEP",
+   "sched": "Schedule I",
+   "rx": "No",
+   "use": "None (removed from U.S. market 1984)",
+   "dose": "N/A",
+   "onset": "30–60 min",
+   "duration": "4–8 h",
+   "routes": "Oral",
+   "abuse": 4,
+   "history": "Popular in the 1970s; moved to Schedule I in 1984.",
+   "price": "Rarely encountered",
+   "flags": {
+    "pupil": "Usually DILATES pupils (Matrix fn 1)",
+    "pulse": "May ELEVATE pulse (Matrix fn 2)"
+   },
+   "type": "Illicit"
+  },
+  {
+   "id": "butalbital",
+   "name": "Butalbital (barbiturates)",
+   "official": "Butalbital (Fioricet/Fiorinal); phenobarbital",
+   "street": [
+    "Barbs",
+    "Reds",
+    "Yellow jackets"
+   ],
+   "cat": "DEP",
+   "sched": "Schedule III (some combos exempt; phenobarbital IV)",
+   "rx": "Rx",
+   "use": "Tension headache; seizures (phenobarbital)",
+   "dose": "50 mg per dose in combination",
+   "onset": "30–60 min",
+   "duration": "4–6 h",
+   "routes": "Oral",
+   "abuse": 3,
+   "history": "Barbiturates were the leading sedatives before benzodiazepines.",
+   "price": "$2–$5 per capsule",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "ghb",
+   "name": "GHB",
+   "official": "Gamma-hydroxybutyrate (sodium oxybate: Xyrem)",
+   "street": [
+    "G",
+    "Liquid ecstasy",
+    "Georgia home boy",
+    "Grievous bodily harm"
+   ],
+   "cat": "DEP",
+   "sched": "Schedule I (FDA-approved oxybate: Schedule III)",
+   "rx": "Rx only as oxybate products",
+   "use": "Narcolepsy with cataplexy (sodium oxybate)",
+   "dose": "Oxybate 4.5–9 g nightly in divided doses",
+   "onset": "15–30 min",
+   "duration": "2–4 h; very short detection window",
+   "routes": "Oral",
+   "abuse": 4,
+   "history": "Scheduled by the Hillory J. Farias and Samantha Reid Date-Rape Drug Prohibition Act of 2000.",
+   "price": "$5–$25 per dose",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "flunitrazepam",
+   "name": "Flunitrazepam",
+   "official": "Flunitrazepam (Rohypnol)",
+   "street": [
+    "Roofies",
+    "Rophies",
+    "Forget-me pill"
+   ],
+   "cat": "DEP",
+   "sched": "Schedule IV (enhanced federal penalties)",
+   "rx": "No (never approved in the U.S.)",
+   "use": "Not approved in the U.S.; insomnia elsewhere",
+   "dose": "0.5–2 mg",
+   "onset": "15–30 min",
+   "duration": "8–12 h",
+   "routes": "Oral",
+   "abuse": 4,
+   "history": "Associated with drug-facilitated sexual assault; the manufacturer reformulated tablets to turn drinks blue.",
+   "price": "$5–$10 per tablet",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "diphenhydramine",
+   "name": "Diphenhydramine",
+   "official": "Diphenhydramine (Benadryl)",
+   "street": [
+    "DPH",
+    "Benadryl"
+   ],
+   "cat": "DEP",
+   "sched": "Not scheduled",
+   "rx": "OTC",
+   "use": "Allergies, insomnia, motion sickness",
+   "dose": "25–50 mg every 4–6 h",
+   "onset": "15–60 min",
+   "duration": "4–6 h",
+   "routes": "Oral",
+   "abuse": 1,
+   "history": "First-generation antihistamine; strongly sedating, with anticholinergic effects at high doses that may dilate pupils.",
+   "price": "Retail",
+   "flags": {},
+   "type": "OTC"
+  },
+  {
+   "id": "quetiapine",
+   "name": "Quetiapine",
+   "official": "Quetiapine (Seroquel)",
+   "street": [
+    "Quell",
+    "Baby heroin",
+    "Susie-Q"
+   ],
+   "cat": "DEP",
+   "sched": "Not scheduled",
+   "rx": "Rx",
+   "use": "Schizophrenia, bipolar disorder, adjunct for depression",
+   "dose": "25–800 mg/day",
+   "onset": "~1 h",
+   "duration": "6–12 h",
+   "routes": "Oral",
+   "abuse": 2,
+   "history": "Atypical antipsychotic; misused for sedation, including in correctional settings.",
+   "price": "$1–$5 per tablet",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "trazodone",
+   "name": "Trazodone",
+   "official": "Trazodone (Desyrel)",
+   "street": [
+    "Sleepers"
+   ],
+   "cat": "DEP",
+   "sched": "Not scheduled",
+   "rx": "Rx",
+   "use": "Depression; off-label insomnia",
+   "dose": "25–150 mg at bedtime (insomnia)",
+   "onset": "30–60 min",
+   "duration": "6–8 h",
+   "routes": "Oral",
+   "abuse": 1,
+   "history": "Antidepressant. Some antidepressants may dilate pupils or elevate pulse (Matrix fn 1, 2).",
+   "price": "Rarely sold illicitly",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "gabapentin",
+   "name": "Gabapentin",
+   "official": "Gabapentin (Neurontin)",
+   "street": [
+    "Gabbies",
+    "Johnnies"
+   ],
+   "cat": "DEP",
+   "sched": "Not federally scheduled (Schedule V in several states)",
+   "rx": "Rx",
+   "use": "Seizures, postherpetic neuralgia, nerve pain",
+   "dose": "300–3,600 mg/day",
+   "onset": "2–3 h to peak",
+   "duration": "Half-life 5–7 h",
+   "routes": "Oral",
+   "abuse": 2,
+   "history": "Frequently combined with opioids; several states have scheduled it or require PDMP reporting.",
+   "price": "$0.50–$3 per capsule",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "xylazine",
+   "name": "Xylazine",
+   "official": "Xylazine (veterinary sedative)",
+   "street": [
+    "Tranq",
+    "Tranq dope",
+    "Zombie drug",
+    "Anestesia de caballo"
+   ],
+   "cat": "DEP",
+   "sched": "Not federally scheduled (scheduled in several states)",
+   "rx": "Veterinary only",
+   "use": "Veterinary sedative / muscle relaxant",
+   "dose": "Encountered as fentanyl adulterant",
+   "onset": "Minutes",
+   "duration": "Can extend sedation for hours",
+   "routes": "Injected, smoked, insufflated (as adulterant)",
+   "abuse": 4,
+   "history": "The White House ONDCP designated fentanyl adulterated with xylazine an emerging threat in April 2023. An alpha-2 agonist, not an opioid; naloxone does not reverse it. Causes severe necrotic wounds.",
+   "price": "Illustrative only",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "promethazine",
+   "name": "Promethazine",
+   "official": "Promethazine (Phenergan)",
+   "street": [
+    "Phenergan",
+    "Lean (with codeine)"
+   ],
+   "cat": "DEP",
+   "sched": "Not scheduled (with codeine: Schedule V)",
+   "rx": "Rx",
+   "use": "Nausea, allergies, sedation",
+   "dose": "12.5–25 mg",
+   "onset": "~20 min",
+   "duration": "4–6 h, up to 12 h",
+   "routes": "Oral, IM, rectal",
+   "abuse": 2,
+   "history": "Phenothiazine antihistamine; strongly sedating.",
+   "price": "Illustrative only",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "baclofen",
+   "name": "Baclofen",
+   "official": "Baclofen (Lioresal)",
+   "street": [
+    "Baclo"
+   ],
+   "cat": "DEP",
+   "sched": "Not scheduled",
+   "rx": "Rx",
+   "use": "Spasticity",
+   "dose": "5–20 mg 3×/day",
+   "onset": "30–60 min",
+   "duration": "4–8 h",
+   "routes": "Oral, intrathecal",
+   "abuse": 2,
+   "history": "GABA-B agonist; overdose causes coma and respiratory depression.",
+   "price": "Illustrative only",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "cyclobenzaprine",
+   "name": "Cyclobenzaprine",
+   "official": "Cyclobenzaprine (Flexeril)",
+   "street": [
+    "Flexies"
+   ],
+   "cat": "DEP",
+   "sched": "Not scheduled",
+   "rx": "Rx",
+   "use": "Muscle spasm",
+   "dose": "5–10 mg 3×/day",
+   "onset": "~1 h",
+   "duration": "12–24 h",
+   "routes": "Oral",
+   "abuse": 1,
+   "history": "Structurally related to tricyclic antidepressants; anticholinergic effects may dilate pupils.",
+   "price": "Illustrative only",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "bromazolam",
+   "name": "Bromazolam",
+   "official": "Bromazolam (designer benzodiazepine)",
+   "street": [
+    "Benzo-dope (with fentanyl)",
+    "Fake Xanax"
+   ],
+   "cat": "DEP",
+   "sched": "Schedule I (temporary, 2024)",
+   "rx": "No",
+   "use": "None",
+   "dose": "0.5–2 mg",
+   "onset": "15–30 min",
+   "duration": "6–8 h",
+   "routes": "Oral, mixed with opioids",
+   "abuse": 5,
+   "history": "Novel benzodiazepine found in counterfeit alprazolam and in fentanyl mixtures (\"benzo-dope\").",
+   "price": "Illustrative only",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "phenibut",
+   "name": "Phenibut",
+   "official": "β-Phenyl-GABA",
+   "street": [
+    "Phen"
+   ],
+   "cat": "DEP",
+   "sched": "Not scheduled (FDA: not a lawful dietary supplement)",
+   "rx": "No (Rx in Russia)",
+   "use": "None in the U.S.",
+   "dose": "250–2,000 mg",
+   "onset": "2–4 h",
+   "duration": "15–24 h",
+   "routes": "Oral",
+   "abuse": 3,
+   "history": "Sold online as a supplement; FDA has issued warning letters.",
+   "price": "Illustrative only",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "meprobamate",
+   "name": "Meprobamate",
+   "official": "Meprobamate (Miltown)",
+   "street": [
+    "Miltown"
+   ],
+   "cat": "DEP",
+   "sched": "Schedule IV",
+   "rx": "Rx (rarely used)",
+   "use": "Anxiety",
+   "dose": "400 mg 3–4×/day",
+   "onset": "~1 h",
+   "duration": "6–10 h",
+   "routes": "Oral",
+   "abuse": 3,
+   "history": "Active metabolite of carisoprodol; the first blockbuster tranquilizer (1955).",
+   "price": "Rarely encountered",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "cocaine",
+   "name": "Cocaine",
+   "official": "Cocaine hydrochloride / cocaine base",
+   "street": [
+    "Coke",
+    "Blow",
+    "Snow",
+    "Crack",
+    "Rock",
+    "Yayo"
+   ],
+   "cat": "STI",
+   "sched": "Schedule II",
+   "rx": "Rx (topical anesthetic only)",
+   "use": "Topical anesthetic for nasal procedures",
+   "dose": "Illicit: 20–100 mg per line; crack rocks ~0.1 g",
+   "onset": "Seconds (smoked) to 5–10 min (snorted)",
+   "duration": "5–90 min",
+   "routes": "Insufflated, smoked, injected",
+   "abuse": 5,
+   "history": "Isolated from coca leaves in 1860; Schedule II under the Controlled Substances Act of 1970.",
+   "price": "$80–$150 per gram (illustrative)",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "methamphetamine",
+   "name": "Methamphetamine",
+   "official": "Methamphetamine (Desoxyn when prescribed)",
+   "street": [
+    "Meth",
+    "Ice",
+    "Crystal",
+    "Glass",
+    "Crank",
+    "Tina"
+   ],
+   "cat": "STI",
+   "sched": "Schedule II",
+   "rx": "Rx (Desoxyn, rare)",
+   "use": "ADHD, exogenous obesity (rare)",
+   "dose": "Illicit: 0.1–0.25 g \"point\"",
+   "onset": "Minutes smoked; 15–20 min oral",
+   "duration": "4–12 h; binges can last days",
+   "routes": "Smoked, insufflated, injected, oral",
+   "abuse": 5,
+   "history": "Synthesized in Japan in 1919. Current U.S. supply is dominated by high-purity P2P methamphetamine from Mexican cartels (DEA NDTA).",
+   "price": "$5–$20 per point (illustrative)",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "amphetamine",
+   "name": "Amphetamine (Adderall)",
+   "official": "Mixed amphetamine salts (Adderall)",
+   "street": [
+    "Addies",
+    "Uppers",
+    "Study buddies",
+    "Beans"
+   ],
+   "cat": "STI",
+   "sched": "Schedule II",
+   "rx": "Rx",
+   "use": "ADHD, narcolepsy",
+   "dose": "5–60 mg/day",
+   "onset": "30–60 min",
+   "duration": "4–6 h (IR), 10–12 h (XR)",
+   "routes": "Oral, insufflated",
+   "abuse": 4,
+   "history": "Adderall IR approved 1996; national shortages since 2022; counterfeit pills containing meth are reported.",
+   "price": "$3–$10 per pill",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "methylphenidate",
+   "name": "Methylphenidate",
+   "official": "Methylphenidate (Ritalin, Concerta)",
+   "street": [
+    "Vitamin R",
+    "Skippy",
+    "Kibbles and bits"
+   ],
+   "cat": "STI",
+   "sched": "Schedule II",
+   "rx": "Rx",
+   "use": "ADHD, narcolepsy",
+   "dose": "10–72 mg/day",
+   "onset": "20–60 min",
+   "duration": "3–4 h (IR), 8–12 h (ER)",
+   "routes": "Oral, insufflated",
+   "abuse": 3,
+   "history": "Marketed as Ritalin since 1955.",
+   "price": "$2–$10 per pill",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "cathinones",
+   "name": "Synthetic cathinones",
+   "official": "Mephedrone, MDPV, alpha-PVP",
+   "street": [
+    "Bath salts",
+    "Flakka",
+    "Gravel"
+   ],
+   "cat": "STI",
+   "sched": "Schedule I",
+   "rx": "No",
+   "use": "None",
+   "dose": "Highly variable",
+   "onset": "15–45 min",
+   "duration": "2–8 h",
+   "routes": "Insufflated, oral, smoked, injected",
+   "abuse": 5,
+   "history": "The Synthetic Drug Abuse Prevention Act of 2012 placed several cathinones in Schedule I.",
+   "price": "$20–$50 per packet (illustrative)",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "caffeine",
+   "name": "Caffeine",
+   "official": "1,3,7-Trimethylxanthine",
+   "street": [
+    "Coffee",
+    "Energy shots"
+   ],
+   "cat": "NONE",
+   "sched": "Not scheduled",
+   "rx": "OTC",
+   "use": "Alertness; apnea of prematurity (caffeine citrate)",
+   "dose": "Up to ~400 mg/day considered safe for most healthy adults (FDA)",
+   "onset": "15–45 min",
+   "duration": "Half-life 3–7 h",
+   "routes": "Oral",
+   "abuse": 1,
+   "history": "The most widely used psychoactive substance in the world. A mild CNS stimulant that is not considered impairing at normal doses.",
+   "price": "Retail",
+   "flags": {},
+   "type": "OTC"
+  },
+  {
+   "id": "pseudoephedrine",
+   "name": "Pseudoephedrine",
+   "official": "Pseudoephedrine (Sudafed)",
+   "street": [
+    "Sudafed"
+   ],
+   "cat": "NONE",
+   "sched": "List I chemical (CMEA 2005)",
+   "rx": "OTC behind the counter",
+   "use": "Nasal decongestant",
+   "dose": "60 mg every 4–6 h",
+   "onset": "~30 min",
+   "duration": "4–6 h",
+   "routes": "Oral",
+   "abuse": 1,
+   "history": "The Combat Methamphetamine Epidemic Act of 2005 restricts retail sales because it is a methamphetamine precursor.",
+   "price": "Retail",
+   "flags": {},
+   "type": "OTC"
+  },
+  {
+   "id": "lsd",
+   "name": "LSD",
+   "official": "Lysergic acid diethylamide",
+   "street": [
+    "Acid",
+    "Blotter",
+    "Tabs",
+    "Window pane"
+   ],
+   "cat": "HAL",
+   "sched": "Schedule I",
+   "rx": "No",
+   "use": "None (clinical research ongoing)",
+   "dose": "50–150 µg",
+   "onset": "30–90 min",
+   "duration": "10–12 h",
+   "routes": "Oral (blotter, sugar cube, liquid)",
+   "abuse": 2,
+   "history": "Synthesized by Albert Hofmann in 1938; psychoactive effects discovered in 1943.",
+   "price": "$5–$10 per hit (illustrative)",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "psilocybin",
+   "name": "Psilocybin",
+   "official": "Psilocybin / psilocin",
+   "street": [
+    "Shrooms",
+    "Magic mushrooms",
+    "Caps"
+   ],
+   "cat": "HAL",
+   "sched": "Schedule I (federal); regulated access in OR and CO",
+   "rx": "No",
+   "use": "None federally (research ongoing)",
+   "dose": "1–5 g dried mushrooms",
+   "onset": "20–40 min",
+   "duration": "4–6 h",
+   "routes": "Oral",
+   "abuse": 2,
+   "history": "Found in Psilocybe species; Oregon (2020) and Colorado (2022) passed regulated-access measures.",
+   "price": "$10–$40 per eighth (illustrative)",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "mescaline",
+   "name": "Mescaline",
+   "official": "3,4,5-Trimethoxyphenethylamine",
+   "street": [
+    "Peyote",
+    "Buttons",
+    "Cactus"
+   ],
+   "cat": "HAL",
+   "sched": "Schedule I (religious exemption for Native American Church)",
+   "rx": "No",
+   "use": "None",
+   "dose": "200–400 mg",
+   "onset": "30–90 min",
+   "duration": "10–12 h",
+   "routes": "Oral",
+   "abuse": 2,
+   "history": "From peyote cactus; religious use by members of the Native American Church is protected under 42 U.S.C. § 1996a.",
+   "price": "Illustrative only",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "dmt",
+   "name": "DMT",
+   "official": "N,N-Dimethyltryptamine",
+   "street": [
+    "Dimitri",
+    "Ayahuasca (brew)",
+    "Spirit molecule"
+   ],
+   "cat": "HAL",
+   "sched": "Schedule I",
+   "rx": "No",
+   "use": "None",
+   "dose": "Smoked 15–60 mg",
+   "onset": "Seconds (smoked)",
+   "duration": "15–60 min smoked; 4–6 h as ayahuasca",
+   "routes": "Smoked, vaped, oral (with MAOI)",
+   "abuse": 2,
+   "history": "Present in many plants; sacramental ayahuasca use was protected in Gonzales v. O Centro (2006).",
+   "price": "Illustrative only",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "mdma",
+   "name": "MDMA",
+   "official": "3,4-Methylenedioxymethamphetamine",
+   "street": [
+    "Ecstasy",
+    "Molly",
+    "X",
+    "E",
+    "Rolls"
+   ],
+   "cat": "HAL",
+   "sched": "Schedule I",
+   "rx": "No",
+   "use": "None (FDA declined approval for PTSD-assisted therapy in 2024)",
+   "dose": "75–150 mg",
+   "onset": "30–45 min",
+   "duration": "3–6 h",
+   "routes": "Oral, insufflated",
+   "abuse": 3,
+   "history": "First synthesized by Merck in 1912; placed in Schedule I in 1985.",
+   "price": "$10–$30 per pill (illustrative)",
+   "flags": {
+    "rtl": "May SLOW reaction to light (Matrix fn 3)"
+   },
+   "type": "Illicit"
+  },
+  {
+   "id": "salvia",
+   "name": "Salvia divinorum",
+   "official": "Salvinorin A",
+   "street": [
+    "Sally D",
+    "Magic mint",
+    "Diviner’s sage"
+   ],
+   "cat": "HAL",
+   "sched": "Not federally scheduled (controlled in many states)",
+   "rx": "No",
+   "use": "None",
+   "dose": "Smoked extract",
+   "onset": "~30 s",
+   "duration": "5–20 min",
+   "routes": "Smoked, chewed",
+   "abuse": 2,
+   "history": "A kappa-opioid agonist hallucinogen with very short, intense effects.",
+   "price": "Illustrative only",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "2cb",
+   "name": "2C-B",
+   "official": "4-Bromo-2,5-dimethoxyphenethylamine",
+   "street": [
+    "Nexus",
+    "Bees"
+   ],
+   "cat": "HAL",
+   "sched": "Schedule I",
+   "rx": "No",
+   "use": "None",
+   "dose": "10–25 mg",
+   "onset": "45–75 min",
+   "duration": "4–8 h",
+   "routes": "Oral, insufflated",
+   "abuse": 2,
+   "history": "Psychedelic phenethylamine synthesized by Alexander Shulgin in 1974. \"Tusi\" (pink cocaine) sold under this name usually contains ketamine and MDMA instead.",
+   "price": "Illustrative only",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "pcp",
+   "name": "PCP",
+   "official": "Phencyclidine",
+   "street": [
+    "Angel dust",
+    "Sherm",
+    "Wet",
+    "Fry",
+    "Illy",
+    "Embalming fluid (dipped joints)"
+   ],
+   "cat": "DA",
+   "sched": "Schedule II",
+   "rx": "No",
+   "use": "None (former anesthetic withdrawn in 1965)",
+   "dose": "Variable; dipped cigarettes",
+   "onset": "1–5 min smoked",
+   "duration": "4–6 h; can persist for days",
+   "routes": "Smoked, oral, insufflated, injected",
+   "abuse": 4,
+   "history": "Developed as the anesthetic Sernyl in the 1950s; withdrawn because of post-operative delirium.",
+   "price": "$10–$20 per dipped cigarette (illustrative)",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "ketamine",
+   "name": "Ketamine",
+   "official": "Ketamine (Ketalar); esketamine (Spravato)",
+   "street": [
+    "Special K",
+    "K",
+    "Kit Kat",
+    "Vitamin K"
+   ],
+   "cat": "DA",
+   "sched": "Schedule III",
+   "rx": "Rx",
+   "use": "Anesthesia; esketamine for treatment-resistant depression",
+   "dose": "Anesthetic 1–4.5 mg/kg IV; illicit 30–100 mg snorted",
+   "onset": "Seconds (IV) to 5–15 min (snorted)",
+   "duration": "30–60 min snorted; residual 1–2 h",
+   "routes": "Insufflated, injected, oral, smoked",
+   "abuse": 3,
+   "history": "Synthesized in 1962 as a shorter-acting PCP analog; FDA approved esketamine nasal spray in 2019.",
+   "price": "$20–$80 per gram (illustrative)",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "dxm",
+   "name": "Dextromethorphan",
+   "official": "Dextromethorphan (DXM)",
+   "street": [
+    "Robo",
+    "Triple C",
+    "Skittles",
+    "Dex"
+   ],
+   "cat": "DA",
+   "sched": "Not scheduled",
+   "rx": "OTC",
+   "use": "Cough suppressant",
+   "dose": "10–30 mg every 4–8 h (abuse: hundreds of mg)",
+   "onset": "15–60 min",
+   "duration": "6 h or more at high doses",
+   "routes": "Oral",
+   "abuse": 2,
+   "history": "At high doses acts as an NMDA antagonist producing dissociative effects similar to PCP; classified by DREs as a dissociative anesthetic.",
+   "price": "Retail",
+   "flags": {},
+   "type": "OTC"
+  },
+  {
+   "id": "heroin",
+   "name": "Heroin",
+   "official": "Diacetylmorphine",
+   "street": [
+    "H",
+    "Dope",
+    "Smack",
+    "Black tar",
+    "Boy"
+   ],
+   "cat": "NA",
+   "sched": "Schedule I",
+   "rx": "No",
+   "use": "None in the U.S.",
+   "dose": "Illicit: ~10–50 mg per bag",
+   "onset": "Seconds (IV) to 10–15 min",
+   "duration": "4–6 h",
+   "routes": "Injected, insufflated, smoked",
+   "abuse": 5,
+   "history": "Synthesized in 1874 and marketed by Bayer in 1898; largely displaced in U.S. markets by fentanyl (DEA NDTA).",
+   "price": "$5–$20 per bag (illustrative)",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "fentanyl",
+   "name": "Fentanyl",
+   "official": "Fentanyl citrate (Duragesic, Sublimaze)",
+   "street": [
+    "Fetty",
+    "China white",
+    "M30s / Blues (counterfeit)",
+    "Apache",
+    "Dance fever"
+   ],
+   "cat": "NA",
+   "sched": "Schedule II",
+   "rx": "Rx",
+   "use": "Severe pain, anesthesia",
+   "dose": "25–100 µg IV; patches 12–100 µg/h",
+   "onset": "Seconds (IV, smoked)",
+   "duration": "30–90 min IV; patches 72 h",
+   "routes": "Injected, smoked, insufflated, oral (pills), transdermal",
+   "abuse": 5,
+   "history": "About 50× more potent than heroin; DEA considers 2 mg a potentially lethal dose and reported in 2023 that 7 of 10 lab-tested counterfeit pills contained a potentially lethal dose.",
+   "price": "$3–$30 per counterfeit pill (varies by region, DEA NDTA)",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "oxycodone",
+   "name": "Oxycodone",
+   "official": "Oxycodone (OxyContin, Percocet, Roxicodone)",
+   "street": [
+    "Oxy",
+    "Percs",
+    "Roxies",
+    "OC",
+    "Hillbilly heroin"
+   ],
+   "cat": "NA",
+   "sched": "Schedule II",
+   "rx": "Rx",
+   "use": "Moderate to severe pain",
+   "dose": "5–30 mg every 4–6 h",
+   "onset": "15–30 min",
+   "duration": "4–6 h (IR), 12 h (ER)",
+   "routes": "Oral, insufflated, injected",
+   "abuse": 5,
+   "history": "OxyContin launched in 1996 and was reformulated as abuse-deterrent in 2010.",
+   "price": "$20–$80 per 30 mg pill (illustrative)",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "hydrocodone",
+   "name": "Hydrocodone",
+   "official": "Hydrocodone/acetaminophen (Norco, Vicodin)",
+   "street": [
+    "Vikes",
+    "Norcos",
+    "Hydros",
+    "Watsons"
+   ],
+   "cat": "NA",
+   "sched": "Schedule II (since 2014)",
+   "rx": "Rx",
+   "use": "Moderate to severe pain; cough",
+   "dose": "5–10 mg every 4–6 h",
+   "onset": "20–30 min",
+   "duration": "4–6 h",
+   "routes": "Oral",
+   "abuse": 4,
+   "history": "Combination products were rescheduled from Schedule III to II in October 2014.",
+   "price": "$5–$25 per pill (illustrative)",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "morphine",
+   "name": "Morphine",
+   "official": "Morphine sulfate (MS Contin)",
+   "street": [
+    "Morph",
+    "Miss Emma",
+    "M"
+   ],
+   "cat": "NA",
+   "sched": "Schedule II",
+   "rx": "Rx",
+   "use": "Severe pain",
+   "dose": "2.5–15 mg IV; 15–30 mg oral",
+   "onset": "5–30 min",
+   "duration": "3–7 h (IR)",
+   "routes": "Oral, injected, rectal",
+   "abuse": 4,
+   "history": "Isolated from opium by Friedrich Sertürner around 1804.",
+   "price": "$10–$30 per pill (illustrative)",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "codeine",
+   "name": "Codeine",
+   "official": "Codeine (Tylenol #3; promethazine-codeine syrup)",
+   "street": [
+    "Lean",
+    "Purple drank",
+    "Sizzurp",
+    "T3s"
+   ],
+   "cat": "NA",
+   "sched": "Schedule II (combos III/V)",
+   "rx": "Rx",
+   "use": "Mild to moderate pain; cough",
+   "dose": "15–60 mg every 4–6 h",
+   "onset": "30–60 min",
+   "duration": "4–6 h",
+   "routes": "Oral",
+   "abuse": 3,
+   "history": "\"Lean\" mixes promethazine-codeine syrup with soda; promethazine adds sedation.",
+   "price": "$200–$800 per pint of syrup (illustrative)",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "methadone",
+   "name": "Methadone",
+   "official": "Methadone (Dolophine, Methadose)",
+   "street": [
+    "Dolls",
+    "Juice",
+    "Fizzies"
+   ],
+   "cat": "NA",
+   "sched": "Schedule II",
+   "rx": "Rx",
+   "use": "Opioid use disorder (OTPs), pain",
+   "dose": "OUD: typically 60–120 mg/day maintenance",
+   "onset": "30–60 min",
+   "duration": "24–36 h (long half-life)",
+   "routes": "Oral",
+   "abuse": 3,
+   "history": "Developed in Germany in the late 1930s; used for opioid maintenance since the 1960s.",
+   "price": "$10–$20 per dose (illustrative)",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "buprenorphine",
+   "name": "Buprenorphine",
+   "official": "Buprenorphine (Suboxone with naloxone, Subutex, Sublocade)",
+   "street": [
+    "Subs",
+    "Strips",
+    "Bupe",
+    "Oranges"
+   ],
+   "cat": "NA",
+   "sched": "Schedule III",
+   "rx": "Rx",
+   "use": "Opioid use disorder, pain",
+   "dose": "OUD: 4–24 mg/day sublingual",
+   "onset": "30–60 min",
+   "duration": "24–72 h",
+   "routes": "Sublingual, buccal, injected (ER), transdermal",
+   "abuse": 3,
+   "history": "Partial mu agonist with a ceiling effect on respiratory depression; the X-waiver was eliminated by the MAT Act (2023).",
+   "price": "$10–$30 per strip (illustrative)",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "tramadol",
+   "name": "Tramadol",
+   "official": "Tramadol (Ultram)",
+   "street": [
+    "Trammies",
+    "Ultras",
+    "Chill pills"
+   ],
+   "cat": "NA",
+   "sched": "Schedule IV",
+   "rx": "Rx",
+   "use": "Moderate to moderately severe pain",
+   "dose": "50–100 mg every 4–6 h (max 400 mg/day)",
+   "onset": "~1 h",
+   "duration": "~6 h",
+   "routes": "Oral",
+   "abuse": 3,
+   "history": "Also inhibits serotonin/norepinephrine reuptake; seizure and serotonin-syndrome risk. Federally scheduled in 2014.",
+   "price": "$1–$5 per pill (illustrative)",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "hydromorphone",
+   "name": "Hydromorphone",
+   "official": "Hydromorphone (Dilaudid)",
+   "street": [
+    "Dillies",
+    "Footballs",
+    "D"
+   ],
+   "cat": "NA",
+   "sched": "Schedule II",
+   "rx": "Rx",
+   "use": "Severe pain",
+   "dose": "2–4 mg oral every 4–6 h",
+   "onset": "15–30 min",
+   "duration": "4–5 h",
+   "routes": "Oral, injected",
+   "abuse": 5,
+   "history": "Roughly 5× as potent as oral morphine.",
+   "price": "$20–$60 per pill (illustrative)",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "nitazenes",
+   "name": "Nitazenes",
+   "official": "Isotonitazene, metonitazene, protonitazene and analogs",
+   "street": [
+    "Nitazenes",
+    "Iso"
+   ],
+   "cat": "NA",
+   "sched": "Schedule I",
+   "rx": "No",
+   "use": "None",
+   "dose": "Microgram quantities; some analogs exceed fentanyl in potency",
+   "onset": "Rapid",
+   "duration": "Variable",
+   "routes": "Pills, powder, injected, smoked",
+   "abuse": 5,
+   "history": "Benzimidazole opioids developed in the 1950s that re-emerged in illicit markets around 2019.",
+   "price": "Illustrative only",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "kratom",
+   "name": "Kratom",
+   "official": "Mitragyna speciosa (mitragynine, 7-OH-mitragynine)",
+   "street": [
+    "Thang",
+    "Kakuam",
+    "Ketum",
+    "Biak"
+   ],
+   "cat": "NA",
+   "sched": "Not federally scheduled (banned in some states)",
+   "rx": "No",
+   "use": "None approved",
+   "dose": "1–5 g (stimulant-like); 5–15 g (opioid-like)",
+   "onset": "5–10 min",
+   "duration": "2–5 h",
+   "routes": "Oral (powder, capsules, tea)",
+   "abuse": 3,
+   "history": "DEA proposed temporary scheduling in 2016 and withdrew it; FDA recommended scheduling concentrated 7-OH products in 2025. Low doses act stimulant-like, high doses opioid-like.",
+   "price": "Retail",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "cannabis",
+   "name": "Cannabis (THC)",
+   "official": "Delta-9-tetrahydrocannabinol",
+   "street": [
+    "Weed",
+    "Pot",
+    "Bud",
+    "Grass",
+    "Dabs",
+    "Wax"
+   ],
+   "cat": "CAN",
+   "sched": "Schedule I federally (rescheduling to III proposed 2024)",
+   "rx": "Rx: dronabinol (III), nabilone (II)",
+   "use": "Dronabinol for chemotherapy nausea and AIDS anorexia",
+   "dose": "Edibles: 5–10 mg THC typical serving",
+   "onset": "Minutes (smoked); 30–120 min (edibles)",
+   "duration": "2–3 h smoked; 6–8 h or more for edibles",
+   "routes": "Smoked, vaped, oral, dabbed",
+   "abuse": 3,
+   "history": "Legal for adult use in about half of U.S. states; no scientifically validated per se THC impairment level exists (NHTSA).",
+   "price": "$5–$15 per gram retail (varies by state)",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "delta8",
+   "name": "Delta-8 THC",
+   "official": "Delta-8-tetrahydrocannabinol",
+   "street": [
+    "D8",
+    "Diet weed"
+   ],
+   "cat": "CAN",
+   "sched": "Status disputed (hemp-derived under the 2018 Farm Bill)",
+   "rx": "No",
+   "use": "None",
+   "dose": "Gummies/vapes 10–50 mg",
+   "onset": "30–120 min (edibles)",
+   "duration": "4–8 h",
+   "routes": "Vaped, oral",
+   "abuse": 2,
+   "history": "Converted from hemp CBD; products are largely unregulated (FDA consumer warnings 2021–2023).",
+   "price": "Retail",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "syncann",
+   "name": "Synthetic cannabinoids",
+   "official": "JWH-018, AB-FUBINACA, 5F-ADB and analogs",
+   "street": [
+    "K2",
+    "Spice",
+    "Kush",
+    "Scooby snax"
+   ],
+   "cat": "CAN",
+   "sched": "Schedule I",
+   "rx": "No",
+   "use": "None",
+   "dose": "Unknown and highly variable",
+   "onset": "Minutes",
+   "duration": "2–6 h",
+   "routes": "Smoked, vaped",
+   "abuse": 5,
+   "history": "Sprayed onto plant material and sold as \"incense\"; linked to severe agitation, seizures and mass-overdose events.",
+   "price": "$5–$20 per packet (illustrative)",
+   "flags": {},
+   "type": "Illicit"
+  },
+  {
+   "id": "dronabinol",
+   "name": "Dronabinol",
+   "official": "Dronabinol (Marinol, Syndros)",
+   "street": [
+    "Marinol"
+   ],
+   "cat": "CAN",
+   "sched": "Schedule III (Marinol); Schedule II (Syndros)",
+   "rx": "Rx",
+   "use": "Chemotherapy nausea, AIDS-related anorexia",
+   "dose": "2.5–20 mg/day",
+   "onset": "30–60 min",
+   "duration": "4–6 h",
+   "routes": "Oral",
+   "abuse": 2,
+   "history": "Synthetic THC approved by FDA in 1985.",
+   "price": "Rarely sold illicitly",
+   "flags": {},
+   "type": "Prescription"
+  },
+  {
+   "id": "toluene",
+   "name": "Toluene",
+   "official": "Methylbenzene (paint thinner, glues)",
+   "street": [
+    "Huff",
+    "Glue"
+   ],
+   "cat": "INH",
+   "sched": "Not scheduled (sale restrictions in many states)",
+   "rx": "No",
+   "use": "Industrial solvent",
+   "dose": "N/A",
+   "onset": "Seconds",
+   "duration": "Minutes per inhalation; impairment may last hours",
+   "routes": "Huffed, sniffed, bagged",
+   "abuse": 3,
+   "history": "Chronic use causes permanent cerebellar and peripheral nerve damage.",
+   "price": "Retail product",
+   "flags": {
+    "bp": "Volatile solvent: BP UP (Matrix fn 5)"
+   },
+   "type": "Inhalant"
+  },
+  {
+   "id": "gasoline",
+   "name": "Gasoline",
+   "official": "Gasoline vapor (hydrocarbon mixture)",
+   "street": [
+    "Gas"
+   ],
+   "cat": "INH",
+   "sched": "Not scheduled",
+   "rx": "No",
+   "use": "None",
+   "dose": "N/A",
+   "onset": "Seconds",
+   "duration": "Minutes; may linger",
+   "routes": "Sniffed",
+   "abuse": 3,
+   "history": "A rural and youth abuse pattern; leaded gasoline historically caused lead encephalopathy.",
+   "price": "Retail product",
+   "flags": {
+    "bp": "Volatile solvent: BP UP (Matrix fn 5)"
+   },
+   "type": "Inhalant"
+  },
+  {
+   "id": "butane",
+   "name": "Butane / propane",
+   "official": "Butane (lighter fluid)",
+   "street": [
+    "Fluid"
+   ],
+   "cat": "INH",
+   "sched": "Not scheduled",
+   "rx": "No",
+   "use": "Fuel",
+   "dose": "N/A",
+   "onset": "Seconds",
+   "duration": "Minutes",
+   "routes": "Inhaled directly from canister",
+   "abuse": 4,
+   "history": "A leading cause of sudden sniffing death; can freeze airway tissue when sprayed directly.",
+   "price": "Retail product",
+   "flags": {
+    "bp": "Aerosol/fuel: BP UP (Matrix fn 5)"
+   },
+   "type": "Inhalant"
+  },
+  {
+   "id": "nitrous",
+   "name": "Nitrous oxide",
+   "official": "Nitrous oxide (N₂O)",
+   "street": [
+    "Whippets",
+    "Hippy crack",
+    "Laughing gas",
+    "Galaxy Gas"
+   ],
+   "cat": "INH",
+   "sched": "Not scheduled",
+   "rx": "Medical/dental use",
+   "use": "Dental and surgical analgesia/anesthesia",
+   "dose": "Balloons from 8 g chargers or tanks",
+   "onset": "Seconds",
+   "duration": "2–5 min",
+   "routes": "Inhaled from balloons or chargers",
+   "abuse": 3,
+   "history": "Chronic use inactivates vitamin B12 and causes myelopathy; FDA warned in 2025 against flavored products such as \"Galaxy Gas\".",
+   "price": "Retail product",
+   "flags": {
+    "bp": "Anesthetic gas: BP DOWN (Matrix fn 5)"
+   },
+   "type": "Inhalant"
+  },
+  {
+   "id": "aerosols",
+   "name": "Aerosol propellants",
+   "official": "1,1-Difluoroethane (computer duster), aerosol paints",
+   "street": [
+    "Dusters",
+    "Air blast"
+   ],
+   "cat": "INH",
+   "sched": "Not scheduled",
+   "rx": "No",
+   "use": "None",
+   "dose": "N/A",
+   "onset": "Seconds",
+   "duration": "Minutes",
+   "routes": "Inhaled from can",
+   "abuse": 4,
+   "history": "Dust removers are common in impaired-driving crashes with the can still in the vehicle; some manufacturers add bittering agents.",
+   "price": "Retail product",
+   "flags": {
+    "bp": "Aerosol: BP UP (Matrix fn 5)"
+   },
+   "type": "Inhalant"
+  },
+  {
+   "id": "nitrites",
+   "name": "Alkyl nitrites",
+   "official": "Amyl / butyl / isobutyl nitrite",
+   "street": [
+    "Poppers",
+    "Rush",
+    "Snappers"
+   ],
+   "cat": "INH",
+   "sched": "Not scheduled (sold as \"cleaners\")",
+   "rx": "Amyl nitrite historically Rx for angina",
+   "use": "Formerly angina; cyanide antidote kits",
+   "dose": "N/A",
+   "onset": "Seconds",
+   "duration": "2–5 min",
+   "routes": "Inhaled",
+   "abuse": 2,
+   "history": "Vasodilators that cause sudden drops in blood pressure and headaches.",
+   "price": "Retail product",
+   "flags": {
+    "bp": "Vasodilator: BP DOWN"
+   },
+   "type": "Inhalant"
+  },
+  {
+   "id": "acetaminophen",
+   "name": "Acetaminophen",
+   "official": "Acetaminophen / paracetamol (Tylenol)",
+   "street": [
+    "Tylenol"
+   ],
+   "cat": "NONE",
+   "sched": "Not scheduled",
+   "rx": "OTC",
+   "use": "Pain and fever",
+   "dose": "325–1,000 mg every 4–6 h; max 4 g/day (many labels 3 g)",
+   "onset": "30–60 min",
+   "duration": "4–6 h",
+   "routes": "Oral, IV, rectal",
+   "abuse": 1,
+   "history": "Not impairing. The leading cause of acute liver failure in the U.S. in overdose (antidote: N-acetylcysteine). Often combined with hydrocodone and oxycodone.",
+   "price": "Retail",
+   "flags": {},
+   "type": "OTC"
+  },
+  {
+   "id": "ibuprofen",
+   "name": "Ibuprofen",
+   "official": "Ibuprofen (Advil, Motrin)",
+   "street": [
+    "Advil"
+   ],
+   "cat": "NONE",
+   "sched": "Not scheduled",
+   "rx": "OTC",
+   "use": "Pain, fever, inflammation",
+   "dose": "200–400 mg every 4–6 h (OTC max 1,200 mg/day)",
+   "onset": "30–60 min",
+   "duration": "4–6 h",
+   "routes": "Oral",
+   "abuse": 1,
+   "history": "NSAID; not impairing.",
+   "price": "Retail",
+   "flags": {},
+   "type": "OTC"
+  },
+  {
+   "id": "nicotine",
+   "name": "Nicotine",
+   "official": "Nicotine (cigarettes, vapes, pouches)",
+   "street": [
+    "Vape",
+    "Pouches"
+   ],
+   "cat": "NONE",
+   "sched": "Not scheduled (federal Tobacco 21 since 2019)",
+   "rx": "OTC (replacement therapy)",
+   "use": "Smoking cessation",
+   "dose": "Varies",
+   "onset": "Seconds (inhaled)",
+   "duration": "1–2 h",
+   "routes": "Inhaled, oral, transdermal",
+   "abuse": 4,
+   "history": "Highly addictive; not a DRE category and not evidence of impairment.",
+   "price": "Retail",
+   "flags": {},
+   "type": "OTC"
+  }
+ ],
+ "caseLaw": [
+  {
+   "n": "Schmerber v. California",
+   "c": "384 U.S. 757 (1966)",
+   "ct": "U.S. Supreme Court",
+   "t": "Impairment",
+   "tags": [
+    "Blood draw",
+    "4th Amendment",
+    "5th Amendment"
+   ],
+   "s": "A warrantless blood draw from a DUI suspect at a hospital was reasonable given exigent circumstances (dissipation of alcohol) and probable cause; blood evidence is physical, not testimonial, so the Fifth Amendment does not bar it."
+  },
+  {
+   "n": "Missouri v. McNeely",
+   "c": "569 U.S. 141 (2013)",
+   "ct": "U.S. Supreme Court",
+   "t": "Impairment",
+   "tags": [
+    "Blood draw",
+    "Warrant",
+    "Exigency"
+   ],
+   "s": "Natural metabolization of alcohol does not create a per se exigency justifying a nonconsensual warrantless blood test in every DUI case; exigency is decided case by case under the totality of the circumstances."
+  },
+  {
+   "n": "Birchfield v. North Dakota",
+   "c": "579 U.S. 438 (2016)",
+   "ct": "U.S. Supreme Court",
+   "t": "Impairment",
+   "tags": [
+    "Implied consent",
+    "Breath test",
+    "Blood draw",
+    "Refusal"
+   ],
+   "s": "Warrantless breath tests are permitted as a search incident to a lawful DUI arrest; warrantless blood tests are not. States may not criminally punish refusal of a blood test."
+  },
+  {
+   "n": "Mitchell v. Wisconsin",
+   "c": "588 U.S. 840 (2019)",
+   "ct": "U.S. Supreme Court",
+   "t": "Impairment",
+   "tags": [
+    "Blood draw",
+    "Unconscious driver",
+    "Exigency"
+   ],
+   "s": "Plurality: when a driver is unconscious and must be taken to a hospital before a breath test can be done, the exigent-circumstances rule almost always permits a warrantless blood test."
+  },
+  {
+   "n": "Pennsylvania v. Muniz",
+   "c": "496 U.S. 582 (1990)",
+   "ct": "U.S. Supreme Court",
+   "t": "Impairment",
+   "tags": [
+    "Miranda",
+    "SFST",
+    "Testimonial evidence"
+   ],
+   "s": "Slurred speech and lack of coordination during sobriety tests are non-testimonial physical evidence; routine booking questions fall outside Miranda, but the \"sixth birthday\" question was testimonial."
+  },
+  {
+   "n": "Berkemer v. McCarty",
+   "c": "468 U.S. 420 (1984)",
+   "ct": "U.S. Supreme Court",
+   "t": "Impairment",
+   "tags": [
+    "Miranda",
+    "Traffic stop",
+    "Custody"
+   ],
+   "s": "Miranda applies to misdemeanor traffic offenses once a suspect is in custody, but roadside questioning during an ordinary traffic stop is not custodial interrogation."
+  },
+  {
+   "n": "South Dakota v. Neville",
+   "c": "459 U.S. 553 (1983)",
+   "ct": "U.S. Supreme Court",
+   "t": "Impairment",
+   "tags": [
+    "Refusal",
+    "5th Amendment",
+    "Implied consent"
+   ],
+   "s": "Admitting a suspect’s refusal to submit to a blood-alcohol test into evidence does not violate the Fifth Amendment privilege against self-incrimination."
+  },
+  {
+   "n": "Delaware v. Prouse",
+   "c": "440 U.S. 648 (1979)",
+   "ct": "U.S. Supreme Court",
+   "t": "Impairment",
+   "tags": [
+    "Traffic stop",
+    "Reasonable suspicion"
+   ],
+   "s": "Random, suspicionless stops of motorists to check licenses and registration violate the Fourth Amendment."
+  },
+  {
+   "n": "Michigan Dept. of State Police v. Sitz",
+   "c": "496 U.S. 444 (1990)",
+   "ct": "U.S. Supreme Court",
+   "t": "Impairment",
+   "tags": [
+    "Sobriety checkpoint",
+    "4th Amendment"
+   ],
+   "s": "Properly conducted sobriety checkpoints are consistent with the Fourth Amendment; the state’s interest in preventing drunk driving outweighs the minimal intrusion."
+  },
+  {
+   "n": "Kansas v. Glover",
+   "c": "589 U.S. 376 (2020)",
+   "ct": "U.S. Supreme Court",
+   "t": "Impairment",
+   "tags": [
+    "Traffic stop",
+    "Reasonable suspicion",
+    "Revoked license"
+   ],
+   "s": "An officer who learns the registered owner’s license is revoked has reasonable suspicion to stop the vehicle, absent information that the owner is not driving."
+  },
+  {
+   "n": "Navarette v. California",
+   "c": "572 U.S. 393 (2014)",
+   "ct": "U.S. Supreme Court",
+   "t": "Impairment",
+   "tags": [
+    "Anonymous tip",
+    "Reasonable suspicion",
+    "Erratic driving"
+   ],
+   "s": "A 911 call reporting that a specific vehicle ran the caller off the road gave reasonable suspicion of drunk driving sufficient to justify a stop."
+  },
+  {
+   "n": "State v. Baity",
+   "c": "140 Wash. 2d 1, 991 P.2d 1151 (2000)",
+   "ct": "Washington Supreme Court",
+   "t": "Impairment",
+   "tags": [
+    "DRE admissibility",
+    "Frye",
+    "12-step protocol"
+   ],
+   "s": "The DRE 12-step protocol and drug-category chart are generally accepted and admissible under Frye when all 12 steps are performed. A qualified DRE may testify that signs are consistent with a drug category but may not claim scientific certainty or predict drug levels."
+  },
+  {
+   "n": "State v. Klawitter",
+   "c": "518 N.W.2d 577 (Minn. 1994)",
+   "ct": "Minnesota Supreme Court",
+   "t": "Impairment",
+   "tags": [
+    "DRE admissibility",
+    "Frye",
+    "Expert testimony"
+   ],
+   "s": "Testimony by a trained DRE applying the protocol is admissible with foundational safeguards; the officer should avoid language implying scientific certainty."
+  },
+  {
+   "n": "United States v. Horn",
+   "c": "185 F. Supp. 2d 530 (D. Md. 2002)",
+   "ct": "U.S. District Court, D. Md.",
+   "t": "Impairment",
+   "tags": [
+    "SFST",
+    "Daubert",
+    "Admissibility"
+   ],
+   "s": "SFST results are admissible as circumstantial evidence of alcohol consumption and impairment but not as scientific proof of a specific BAC; officers may not use terms like \"test,\" \"pass\" or \"fail\" in a scientific sense."
+  },
+  {
+   "n": "State v. Homan",
+   "c": "89 Ohio St. 3d 421, 732 N.E.2d 952 (2000)",
+   "ct": "Supreme Court of Ohio",
+   "t": "Impairment",
+   "tags": [
+    "SFST",
+    "Standardization",
+    "Probable cause"
+   ],
+   "s": "Field sobriety test results had to be administered in strict compliance with standardized procedures to support probable cause; the legislature later adopted a substantial-compliance standard (R.C. 4511.19(D)(4)(b))."
+  },
+  {
+   "n": "Whren v. United States",
+   "c": "517 U.S. 806 (1996)",
+   "ct": "U.S. Supreme Court",
+   "t": "Possession",
+   "tags": [
+    "Pretext stop",
+    "Traffic stop"
+   ],
+   "s": "A traffic stop supported by probable cause of a traffic violation is reasonable regardless of the officer’s subjective motivation."
+  },
+  {
+   "n": "Rodriguez v. United States",
+   "c": "575 U.S. 348 (2015)",
+   "ct": "U.S. Supreme Court",
+   "t": "Possession",
+   "tags": [
+    "K-9",
+    "Prolonged stop",
+    "Traffic stop"
+   ],
+   "s": "Absent reasonable suspicion, police may not extend a completed traffic stop to conduct a dog sniff."
+  },
+  {
+   "n": "Illinois v. Caballes",
+   "c": "543 U.S. 405 (2005)",
+   "ct": "U.S. Supreme Court",
+   "t": "Possession",
+   "tags": [
+    "K-9",
+    "Traffic stop"
+   ],
+   "s": "A dog sniff during a lawful traffic stop that does not prolong it is not a Fourth Amendment search."
+  },
+  {
+   "n": "Florida v. Harris",
+   "c": "568 U.S. 237 (2013)",
+   "ct": "U.S. Supreme Court",
+   "t": "Possession",
+   "tags": [
+    "K-9",
+    "Probable cause",
+    "Reliability"
+   ],
+   "s": "Probable cause from a drug-detection dog’s alert is judged by the totality of the circumstances; satisfactory certification or training can establish reliability."
+  },
+  {
+   "n": "Florida v. Jardines",
+   "c": "569 U.S. 1 (2013)",
+   "ct": "U.S. Supreme Court",
+   "t": "Possession",
+   "tags": [
+    "K-9",
+    "Curtilage",
+    "Home"
+   ],
+   "s": "Using a drug-sniffing dog on a home’s front porch is a Fourth Amendment search."
+  },
+  {
+   "n": "Heien v. North Carolina",
+   "c": "574 U.S. 54 (2014)",
+   "ct": "U.S. Supreme Court",
+   "t": "Possession",
+   "tags": [
+    "Traffic stop",
+    "Mistake of law",
+    "Consent search"
+   ],
+   "s": "A reasonable mistake of law can support reasonable suspicion for a stop; cocaine found during the ensuing consent search was admissible."
+  },
+  {
+   "n": "Maryland v. Pringle",
+   "c": "540 U.S. 366 (2003)",
+   "ct": "U.S. Supreme Court",
+   "t": "Possession",
+   "tags": [
+    "Constructive possession",
+    "Probable cause",
+    "Vehicle"
+   ],
+   "s": "Cocaine found behind a rear-seat armrest gave probable cause to arrest all three occupants of the car."
+  },
+  {
+   "n": "Arizona v. Gant",
+   "c": "556 U.S. 332 (2009)",
+   "ct": "U.S. Supreme Court",
+   "t": "Possession",
+   "tags": [
+    "Vehicle search",
+    "Search incident to arrest"
+   ],
+   "s": "Police may search a vehicle incident to arrest only if the arrestee is within reaching distance of the passenger compartment or it is reasonable to believe evidence of the offense of arrest is inside."
+  },
+  {
+   "n": "Carroll v. United States",
+   "c": "267 U.S. 132 (1925)",
+   "ct": "U.S. Supreme Court",
+   "t": "Possession",
+   "tags": [
+    "Automobile exception",
+    "Probable cause"
+   ],
+   "s": "Established the automobile exception: a vehicle may be searched without a warrant when there is probable cause to believe it contains contraband."
+  },
+  {
+   "n": "Robinson v. California",
+   "c": "370 U.S. 660 (1962)",
+   "ct": "U.S. Supreme Court",
+   "t": "Possession",
+   "tags": [
+    "Addiction status",
+    "8th Amendment"
+   ],
+   "s": "A statute making the status of narcotic addiction a crime violated the Eighth Amendment; the state may punish use or possession, not status."
+  }
+ ],
+ "cues": [
+  {
+   "g": "Problems maintaining proper lane position",
+   "items": [
+    "Weaving",
+    "Weaving across lane lines",
+    "Straddling a lane line",
+    "Swerving",
+    "Turning with a wide radius",
+    "Drifting",
+    "Almost striking a vehicle or other object"
+   ]
+  },
+  {
+   "g": "Speed and braking problems",
+   "items": [
+    "Stopping problems (too far, too short, or too jerky)",
+    "Accelerating or decelerating for no apparent reason",
+    "Varying speed",
+    "Slow speed (10+ mph under limit)"
+   ]
+  },
+  {
+   "g": "Vigilance problems",
+   "items": [
+    "Driving in opposing lanes or wrong way on one-way",
+    "Slow response to traffic signals",
+    "Slow or failure to respond to officer’s signals",
+    "Stopping in lane for no apparent reason",
+    "Driving without headlights at night",
+    "Failure to signal or signal inconsistent with action"
+   ]
+  },
+  {
+   "g": "Judgment problems",
+   "items": [
+    "Following too closely",
+    "Improper or unsafe lane change",
+    "Illegal or improper turn",
+    "Driving on other than the designated roadway",
+    "Stopping inappropriately in response to officer",
+    "Inappropriate or unusual behavior (throwing, arguing, etc.)",
+    "Appearing to be impaired"
+   ]
+  }
+ ],
+ "postStop": [
+  "Difficulty with motor vehicle controls",
+  "Difficulty exiting the vehicle",
+  "Fumbling with license or registration",
+  "Repeating questions or comments",
+  "Swaying, unsteady, or balance problems",
+  "Leaning on the vehicle or other object",
+  "Slurred speech",
+  "Slow to respond / officer must repeat",
+  "Provides incorrect information, changes answers",
+  "Odor of alcoholic beverage",
+  "Odor of burnt or raw cannabis",
+  "Bloodshot / watery eyes",
+  "Drugs or paraphernalia in plain view",
+  "Admits use",
+  "Soiled clothing",
+  "Masking odors (mints, gum, spray)"
+ ],
+ "instructions": {
+  "hgn": {
+   "en": "I am going to check your eyes. Keep your head still and follow the stimulus with your eyes only. Keep following the stimulus with your eyes until I tell you to stop.",
+   "es": "Voy a examinar sus ojos. Mantenga la cabeza quieta y siga el estímulo solo con los ojos. Siga el estímulo con los ojos hasta que le diga que se detenga."
+  },
+  "wat": {
+   "en": "Place your left foot on the line. Place your right foot on the line ahead of your left foot, with the heel of your right foot against the toe of your left foot. Keep your arms down at your sides. Do not begin until I tell you to. When I tell you to start, take nine heel-to-toe steps up the line, turn, and take nine heel-to-toe steps back down the line. When you turn, keep your front foot on the line and turn by taking a series of small steps with the other foot. Keep your arms at your sides, watch your feet at all times, and count your steps out loud. Once you start walking, do not stop until you have completed the test.",
+   "es": "Coloque el pie izquierdo sobre la línea. Coloque el pie derecho sobre la línea delante del izquierdo, con el talón del pie derecho contra la punta del pie izquierdo. Mantenga los brazos a los costados. No comience hasta que yo se lo indique. Cuando le diga, dé nueve pasos talón con punta sobre la línea, gire y dé nueve pasos talón con punta de regreso. Al girar, mantenga el pie delantero en la línea y gire con una serie de pasos pequeños con el otro pie. Mantenga los brazos a los costados, mire sus pies en todo momento y cuente sus pasos en voz alta. Una vez que empiece a caminar, no se detenga hasta completar la prueba."
+  },
+  "ols": {
+   "en": "Stand with your feet together and your arms down at your sides. Do not begin until I tell you to. When I tell you to, raise one leg, either leg, approximately six inches off the ground, foot pointed out, with both legs straight. Keep your arms at your sides, look at your elevated foot, and count out loud: one thousand one, one thousand two, one thousand three, and so on, until told to stop.",
+   "es": "Párese con los pies juntos y los brazos a los costados. No comience hasta que yo se lo indique. Cuando le diga, levante una pierna, cualquiera, aproximadamente seis pulgadas del suelo, con la punta del pie hacia afuera y ambas piernas rectas. Mantenga los brazos a los costados, mire su pie levantado y cuente en voz alta: mil uno, mil dos, mil tres, y así sucesivamente, hasta que le diga que pare."
+  },
+  "loc": {
+   "en": "Keep your head still and follow the stimulus with your eyes only. I am going to move it in a circle and then bring it toward the bridge of your nose. Keep your eyes on it.",
+   "es": "Mantenga la cabeza quieta y siga el estímulo solo con los ojos. Lo voy a mover en un círculo y luego lo acercaré al puente de su nariz. No le quite los ojos de encima."
+  },
+  "rom": {
+   "en": "Stand with your feet together and your arms down at your sides. Do not begin until I tell you to. When I tell you to begin, tilt your head back slightly and close your eyes. Keep your head tilted back and your eyes closed until you think thirty seconds have passed, then bring your head forward, open your eyes and say stop.",
+   "es": "Párese con los pies juntos y los brazos a los costados. No comience hasta que yo se lo indique. Cuando le diga, incline la cabeza ligeramente hacia atrás y cierre los ojos. Manténgase así hasta que crea que han pasado treinta segundos, luego traiga la cabeza hacia adelante, abra los ojos y diga alto."
+  },
+  "ftn": {
+   "en": "Stand with your feet together and your arms at your sides. Make a fist with both hands and extend your index fingers, palms forward. When I tell you to begin, tilt your head back slightly and close your eyes. When I call out left or right, touch the tip of that index finger to the tip of your nose, then return your arm to your side.",
+   "es": "Párese con los pies juntos y los brazos a los costados. Cierre ambos puños y extienda los dedos índices, con las palmas hacia adelante. Cuando le diga que comience, incline la cabeza ligeramente hacia atrás y cierre los ojos. Cuando yo diga izquierda o derecha, toque la punta de su nariz con la punta de ese dedo índice y luego regrese el brazo a su costado."
+  }
+ },
+ "steps": [
+  {
+   "n": 1,
+   "k": "breath",
+   "t": "Breath Alcohol Test",
+   "d": "Instrument, result and time of the evidential breath test."
+  },
+  {
+   "n": 2,
+   "k": "interview",
+   "t": "Interview of the Arresting Officer",
+   "d": "Driving, contact, SFST results, statements and evidence from the arresting officer."
+  },
+  {
+   "n": 3,
+   "k": "prelim",
+   "t": "Preliminary Exam & First Pulse",
+   "d": "Medical questions, appearance, eyes, tracking, pupils, HGN check and pulse 1."
+  },
+  {
+   "n": 4,
+   "k": "eyes",
+   "t": "Eye Examination",
+   "d": "HGN per eye with onset angle, vertical gaze nystagmus and lack of convergence."
+  },
+  {
+   "n": 5,
+   "k": "da",
+   "t": "Divided Attention Tests",
+   "d": "Modified Romberg, Walk and Turn, One Leg Stand and Finger to Nose."
+  },
+  {
+   "n": 6,
+   "k": "vitals",
+   "t": "Vital Signs & Second Pulse",
+   "d": "Blood pressure, body temperature and pulse 2."
+  },
+  {
+   "n": 7,
+   "k": "dark",
+   "t": "Dark Room Examinations",
+   "d": "Pupil sizes in three lighting conditions, reaction to light, nasal and oral cavity."
+  },
+  {
+   "n": 8,
+   "k": "tone",
+   "t": "Muscle Tone",
+   "d": "Normal, flaccid or rigid, with a body map."
+  },
+  {
+   "n": 9,
+   "k": "inject",
+   "t": "Injection Sites & Third Pulse",
+   "d": "Body map of injection sites and pulse 3."
+  },
+  {
+   "n": 10,
+   "k": "statements",
+   "t": "Statements & Observations",
+   "d": "Miranda, admissions, timeline and other observations."
+  },
+  {
+   "n": 11,
+   "k": "opinion",
+   "t": "Opinion of the Evaluator",
+   "d": "Matrix-assisted opinion of the drug category or categories."
+  },
+  {
+   "n": 12,
+   "k": "tox",
+   "t": "Toxicological Examination",
+   "d": "Specimen, time, laboratory and chain of custody."
+  }
+ ],
+ "norms": {
+  "pulse": [
+   60,
+   90
+  ],
+  "sys": [
+   120,
+   140
+  ],
+  "dia": [
+   70,
+   90
+  ],
+  "temp": [
+   97.6,
+   99.6
+  ],
+  "room": [
+   2.5,
+   5
+  ],
+  "dark": [
+   5,
+   8.5
+  ],
+  "direct": [
+   2,
+   4.5
+  ]
+ },
+ "trendsNote": "Illustrative sample data (index, peak year = 100) shaped to the published direction of DEA NFLIS and CBP seizure trends. Not official counts. For real figures see the DEA National Drug Threat Assessment, NFLIS-Drug reports, CBP Drug Seizure Statistics and the FBI Crime Data Explorer.",
+ "years": [
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "trends": {
+  "alcohol": {
+   "seizures": [
+    81,
+    76,
+    67,
+    56,
+    45,
+    37,
+    32,
+    33,
+    39
+   ],
+   "arrests": [
+    70,
+    68,
+    58,
+    45,
+    42,
+    34,
+    32,
+    30,
+    37
+   ]
+  },
+  "alprazolam": {
+   "seizures": [
+    100,
+    96,
+    90,
+    86,
+    78,
+    70,
+    64,
+    58,
+    54
+   ],
+   "arrests": [
+    83,
+    83,
+    79,
+    78,
+    70,
+    63,
+    58,
+    54,
+    43
+   ]
+  },
+  "diazepam": {
+   "seizures": [
+    76,
+    80,
+    80,
+    75,
+    66,
+    55,
+    44,
+    36,
+    31
+   ],
+   "arrests": [
+    72,
+    75,
+    71,
+    69,
+    59,
+    46,
+    43,
+    36,
+    33
+   ]
+  },
+  "clonazepam": {
+   "seizures": [
+    53,
+    64,
+    73,
+    77,
+    77,
+    72,
+    63,
+    52,
+    41
+   ],
+   "arrests": [
+    51,
+    56,
+    69,
+    72,
+    68,
+    66,
+    57,
+    43,
+    41
+   ]
+  },
+  "lorazepam": {
+   "seizures": [
+    69,
+    58,
+    47,
+    39,
+    34,
+    35,
+    41,
+    50,
+    61
+   ],
+   "arrests": [
+    59,
+    56,
+    43,
+    35,
+    33,
+    31,
+    38,
+    40,
+    56
+   ]
+  },
+  "zolpidem": {
+   "seizures": [
+    81,
+    85,
+    85,
+    80,
+    71,
+    60,
+    49,
+    41,
+    36
+   ],
+   "arrests": [
+    70,
+    73,
+    69,
+    67,
+    57,
+    55,
+    42,
+    34,
+    32
+   ]
+  },
+  "carisoprodol": {
+   "seizures": [
+    60,
+    69,
+    73,
+    73,
+    68,
+    59,
+    48,
+    37,
+    29
+   ],
+   "arrests": [
+    53,
+    66,
+    69,
+    65,
+    63,
+    53,
+    40,
+    37,
+    30
+   ]
+  },
+  "methaqualone": {
+   "seizures": [
+    82,
+    77,
+    68,
+    57,
+    46,
+    38,
+    33,
+    34,
+    40
+   ],
+   "arrests": [
+    72,
+    69,
+    60,
+    46,
+    44,
+    36,
+    34,
+    32,
+    39
+   ]
+  },
+  "butalbital": {
+   "seizures": [
+    58,
+    69,
+    78,
+    82,
+    82,
+    77,
+    68,
+    57,
+    46
+   ],
+   "arrests": [
+    49,
+    66,
+    67,
+    71,
+    67,
+    64,
+    55,
+    52,
+    39
+   ]
+  },
+  "ghb": {
+   "seizures": [
+    69,
+    73,
+    73,
+    68,
+    59,
+    48,
+    37,
+    29,
+    24
+   ],
+   "arrests": [
+    59,
+    62,
+    69,
+    56,
+    57,
+    44,
+    30,
+    23,
+    20
+   ]
+  },
+  "flunitrazepam": {
+   "seizures": [
+    60,
+    69,
+    73,
+    73,
+    68,
+    59,
+    48,
+    37,
+    29
+   ],
+   "arrests": [
+    53,
+    66,
+    69,
+    65,
+    63,
+    53,
+    40,
+    37,
+    30
+   ]
+  },
+  "diphenhydramine": {
+   "seizures": [
+    69,
+    78,
+    82,
+    82,
+    77,
+    68,
+    57,
+    46,
+    38
+   ],
+   "arrests": [
+    59,
+    71,
+    75,
+    71,
+    68,
+    59,
+    45,
+    43,
+    35
+   ]
+  },
+  "quetiapine": {
+   "seizures": [
+    77,
+    72,
+    63,
+    52,
+    41,
+    33,
+    28,
+    29,
+    35
+   ],
+   "arrests": [
+    62,
+    60,
+    51,
+    48,
+    35,
+    27,
+    25,
+    23,
+    30
+   ]
+  },
+  "trazodone": {
+   "seizures": [
+    51,
+    62,
+    71,
+    75,
+    75,
+    70,
+    61,
+    50,
+    39
+   ],
+   "arrests": [
+    47,
+    53,
+    65,
+    69,
+    65,
+    63,
+    53,
+    40,
+    37
+   ]
+  },
+  "gabapentin": {
+   "seizures": [
+    63,
+    52,
+    41,
+    33,
+    28,
+    29,
+    35,
+    44,
+    55
+   ],
+   "arrests": [
+    59,
+    45,
+    32,
+    35,
+    22,
+    31,
+    27,
+    39,
+    45
+   ]
+  },
+  "xylazine": {
+   "seizures": [
+    2,
+    4,
+    8,
+    18,
+    34,
+    60,
+    88,
+    100,
+    90
+   ],
+   "arrests": [
+    1,
+    1,
+    4,
+    18,
+    33,
+    55,
+    81,
+    88,
+    77
+   ]
+  },
+  "promethazine": {
+   "seizures": [
+    79,
+    70,
+    59,
+    48,
+    40,
+    35,
+    36,
+    42,
+    51
+   ],
+   "arrests": [
+    66,
+    57,
+    54,
+    41,
+    33,
+    31,
+    29,
+    36,
+    48
+   ]
+  },
+  "baclofen": {
+   "seizures": [
+    62,
+    51,
+    40,
+    32,
+    27,
+    28,
+    34,
+    43,
+    54
+   ],
+   "arrests": [
+    57,
+    43,
+    41,
+    33,
+    20,
+    29,
+    36,
+    38,
+    43
+   ]
+  },
+  "cyclobenzaprine": {
+   "seizures": [
+    77,
+    72,
+    63,
+    52,
+    41,
+    33,
+    28,
+    29,
+    35
+   ],
+   "arrests": [
+    62,
+    60,
+    51,
+    48,
+    35,
+    27,
+    25,
+    23,
+    30
+   ]
+  },
+  "bromazolam": {
+   "seizures": [
+    0,
+    0,
+    2,
+    10,
+    30,
+    62,
+    90,
+    100,
+    86
+   ],
+   "arrests": [
+    1,
+    4,
+    4,
+    15,
+    26,
+    59,
+    74,
+    88,
+    80
+   ]
+  },
+  "phenibut": {
+   "seizures": [
+    69,
+    60,
+    49,
+    38,
+    30,
+    25,
+    26,
+    32,
+    41
+   ],
+   "arrests": [
+    59,
+    49,
+    47,
+    33,
+    26,
+    23,
+    21,
+    28,
+    41
+   ]
+  },
+  "meprobamate": {
+   "seizures": [
+    64,
+    53,
+    42,
+    34,
+    29,
+    30,
+    36,
+    45,
+    56
+   ],
+   "arrests": [
+    60,
+    47,
+    34,
+    26,
+    24,
+    33,
+    29,
+    41,
+    47
+   ]
+  },
+  "cocaine": {
+   "seizures": [
+    62,
+    68,
+    72,
+    70,
+    76,
+    84,
+    92,
+    100,
+    98
+   ],
+   "arrests": [
+    57,
+    64,
+    67,
+    60,
+    67,
+    77,
+    77,
+    88,
+    80
+   ]
+  },
+  "methamphetamine": {
+   "seizures": [
+    58,
+    66,
+    72,
+    80,
+    90,
+    96,
+    100,
+    94,
+    88
+   ],
+   "arrests": [
+    49,
+    60,
+    67,
+    67,
+    82,
+    89,
+    92,
+    77,
+    73
+   ]
+  },
+  "amphetamine": {
+   "seizures": [
+    85,
+    85,
+    80,
+    71,
+    60,
+    49,
+    41,
+    36,
+    37
+   ],
+   "arrests": [
+    77,
+    73,
+    71,
+    61,
+    48,
+    46,
+    38,
+    36,
+    33
+   ]
+  },
+  "methylphenidate": {
+   "seizures": [
+    69,
+    58,
+    47,
+    39,
+    34,
+    35,
+    41,
+    50,
+    61
+   ],
+   "arrests": [
+    59,
+    56,
+    43,
+    35,
+    33,
+    31,
+    38,
+    40,
+    56
+   ]
+  },
+  "cathinones": {
+   "seizures": [
+    100,
+    80,
+    64,
+    56,
+    50,
+    44,
+    40,
+    36,
+    34
+   ],
+   "arrests": [
+    83,
+    75,
+    52,
+    45,
+    41,
+    36,
+    36,
+    36,
+    28
+   ]
+  },
+  "caffeine": {
+   "seizures": [
+    83,
+    78,
+    69,
+    58,
+    47,
+    39,
+    34,
+    35,
+    41
+   ],
+   "arrests": [
+    74,
+    71,
+    62,
+    48,
+    46,
+    38,
+    36,
+    34,
+    41
+   ]
+  },
+  "pseudoephedrine": {
+   "seizures": [
+    84,
+    79,
+    70,
+    59,
+    48,
+    40,
+    35,
+    36,
+    42
+   ],
+   "arrests": [
+    75,
+    73,
+    64,
+    50,
+    48,
+    40,
+    27,
+    36,
+    43
+   ]
+  },
+  "lsd": {
+   "seizures": [
+    80,
+    75,
+    66,
+    55,
+    44,
+    36,
+    31,
+    32,
+    38
+   ],
+   "arrests": [
+    68,
+    66,
+    56,
+    54,
+    40,
+    33,
+    30,
+    28,
+    35
+   ]
+  },
+  "psilocybin": {
+   "seizures": [
+    77,
+    77,
+    72,
+    63,
+    52,
+    41,
+    33,
+    28,
+    29
+   ],
+   "arrests": [
+    62,
+    69,
+    67,
+    58,
+    44,
+    42,
+    34,
+    21,
+    30
+   ]
+  },
+  "mescaline": {
+   "seizures": [
+    49,
+    60,
+    69,
+    73,
+    73,
+    68,
+    59,
+    48,
+    37
+   ],
+   "arrests": [
+    44,
+    49,
+    62,
+    65,
+    61,
+    59,
+    49,
+    47,
+    33
+   ]
+  },
+  "dmt": {
+   "seizures": [
+    81,
+    81,
+    76,
+    67,
+    56,
+    45,
+    37,
+    32,
+    33
+   ],
+   "arrests": [
+    70,
+    66,
+    64,
+    54,
+    52,
+    38,
+    30,
+    28,
+    26
+   ]
+  },
+  "mdma": {
+   "seizures": [
+    70,
+    72,
+    74,
+    52,
+    62,
+    74,
+    84,
+    90,
+    100
+   ],
+   "arrests": [
+    61,
+    60,
+    60,
+    48,
+    52,
+    70,
+    73,
+    81,
+    84
+   ]
+  },
+  "salvia": {
+   "seizures": [
+    60,
+    69,
+    73,
+    73,
+    68,
+    59,
+    48,
+    37,
+    29
+   ],
+   "arrests": [
+    53,
+    66,
+    69,
+    65,
+    63,
+    53,
+    40,
+    37,
+    30
+   ]
+  },
+  "2cb": {
+   "seizures": [
+    65,
+    54,
+    43,
+    35,
+    30,
+    31,
+    37,
+    46,
+    57
+   ],
+   "arrests": [
+    62,
+    49,
+    36,
+    28,
+    26,
+    23,
+    30,
+    43,
+    48
+   ]
+  },
+  "pcp": {
+   "seizures": [
+    62,
+    51,
+    40,
+    32,
+    27,
+    28,
+    34,
+    43,
+    54
+   ],
+   "arrests": [
+    57,
+    43,
+    41,
+    33,
+    20,
+    29,
+    36,
+    38,
+    43
+   ]
+  },
+  "ketamine": {
+   "seizures": [
+    30,
+    36,
+    40,
+    44,
+    58,
+    70,
+    84,
+    96,
+    100
+   ],
+   "arrests": [
+    31,
+    38,
+    41,
+    44,
+    55,
+    63,
+    73,
+    81,
+    84
+   ]
+  },
+  "dxm": {
+   "seizures": [
+    76,
+    67,
+    56,
+    45,
+    37,
+    32,
+    33,
+    39,
+    48
+   ],
+   "arrests": [
+    72,
+    62,
+    49,
+    35,
+    38,
+    25,
+    34,
+    30,
+    43
+   ]
+  },
+  "heroin": {
+   "seizures": [
+    100,
+    92,
+    80,
+    66,
+    52,
+    38,
+    26,
+    18,
+    14
+   ],
+   "arrests": [
+    83,
+    75,
+    71,
+    63,
+    44,
+    36,
+    21,
+    13,
+    13
+   ]
+  },
+  "fentanyl": {
+   "seizures": [
+    18,
+    30,
+    42,
+    60,
+    78,
+    92,
+    100,
+    82,
+    64
+   ],
+   "arrests": [
+    19,
+    27,
+    34,
+    52,
+    70,
+    81,
+    92,
+    77,
+    61
+   ]
+  },
+  "oxycodone": {
+   "seizures": [
+    81,
+    76,
+    67,
+    56,
+    45,
+    37,
+    32,
+    33,
+    39
+   ],
+   "arrests": [
+    70,
+    68,
+    58,
+    45,
+    42,
+    34,
+    32,
+    30,
+    37
+   ]
+  },
+  "hydrocodone": {
+   "seizures": [
+    66,
+    55,
+    44,
+    36,
+    31,
+    32,
+    38,
+    47,
+    58
+   ],
+   "arrests": [
+    53,
+    51,
+    37,
+    30,
+    27,
+    25,
+    32,
+    45,
+    50
+   ]
+  },
+  "morphine": {
+   "seizures": [
+    70,
+    74,
+    74,
+    69,
+    60,
+    49,
+    38,
+    30,
+    25
+   ],
+   "arrests": [
+    61,
+    64,
+    60,
+    58,
+    48,
+    46,
+    32,
+    25,
+    22
+   ]
+  },
+  "codeine": {
+   "seizures": [
+    76,
+    67,
+    56,
+    45,
+    37,
+    32,
+    33,
+    39,
+    48
+   ],
+   "arrests": [
+    72,
+    62,
+    49,
+    35,
+    38,
+    25,
+    34,
+    30,
+    43
+   ]
+  },
+  "methadone": {
+   "seizures": [
+    77,
+    68,
+    57,
+    46,
+    38,
+    33,
+    34,
+    40,
+    49
+   ],
+   "arrests": [
+    62,
+    64,
+    50,
+    37,
+    29,
+    27,
+    36,
+    32,
+    45
+   ]
+  },
+  "buprenorphine": {
+   "seizures": [
+    85,
+    80,
+    71,
+    60,
+    49,
+    41,
+    36,
+    37,
+    43
+   ],
+   "arrests": [
+    77,
+    75,
+    65,
+    52,
+    39,
+    42,
+    29,
+    37,
+    34
+   ]
+  },
+  "tramadol": {
+   "seizures": [
+    76,
+    80,
+    80,
+    75,
+    66,
+    55,
+    44,
+    36,
+    31
+   ],
+   "arrests": [
+    72,
+    75,
+    71,
+    69,
+    59,
+    46,
+    43,
+    36,
+    33
+   ]
+  },
+  "hydromorphone": {
+   "seizures": [
+    70,
+    74,
+    74,
+    69,
+    60,
+    49,
+    38,
+    30,
+    25
+   ],
+   "arrests": [
+    61,
+    64,
+    60,
+    58,
+    48,
+    46,
+    32,
+    25,
+    22
+   ]
+  },
+  "nitazenes": {
+   "seizures": [
+    0,
+    0,
+    3,
+    12,
+    20,
+    30,
+    45,
+    62,
+    70
+   ],
+   "arrests": [
+    1,
+    4,
+    6,
+    7,
+    18,
+    33,
+    45,
+    51,
+    62
+   ]
+  },
+  "kratom": {
+   "seizures": [
+    66,
+    55,
+    44,
+    36,
+    31,
+    32,
+    38,
+    47,
+    58
+   ],
+   "arrests": [
+    53,
+    51,
+    37,
+    30,
+    27,
+    25,
+    32,
+    45,
+    50
+   ]
+  },
+  "cannabis": {
+   "seizures": [
+    100,
+    92,
+    84,
+    70,
+    58,
+    50,
+    44,
+    38,
+    34
+   ],
+   "arrests": [
+    83,
+    75,
+    78,
+    60,
+    55,
+    48,
+    43,
+    39,
+    28
+   ]
+  },
+  "delta8": {
+   "seizures": [
+    80,
+    80,
+    75,
+    66,
+    55,
+    44,
+    36,
+    31,
+    32
+   ],
+   "arrests": [
+    68,
+    75,
+    62,
+    63,
+    50,
+    36,
+    29,
+    26,
+    24
+   ]
+  },
+  "syncann": {
+   "seizures": [
+    100,
+    84,
+    70,
+    62,
+    56,
+    50,
+    46,
+    42,
+    40
+   ],
+   "arrests": [
+    83,
+    71,
+    64,
+    56,
+    52,
+    48,
+    36,
+    36,
+    39
+   ]
+  },
+  "dronabinol": {
+   "seizures": [
+    73,
+    68,
+    59,
+    48,
+    37,
+    29,
+    24,
+    25,
+    31
+   ],
+   "arrests": [
+    66,
+    64,
+    54,
+    41,
+    38,
+    31,
+    17,
+    26,
+    33
+   ]
+  },
+  "toluene": {
+   "seizures": [
+    81,
+    85,
+    85,
+    80,
+    71,
+    60,
+    49,
+    41,
+    36
+   ],
+   "arrests": [
+    70,
+    73,
+    69,
+    67,
+    57,
+    55,
+    42,
+    34,
+    32
+   ]
+  },
+  "gasoline": {
+   "seizures": [
+    80,
+    80,
+    75,
+    66,
+    55,
+    44,
+    36,
+    31,
+    32
+   ],
+   "arrests": [
+    68,
+    75,
+    62,
+    63,
+    50,
+    36,
+    29,
+    26,
+    24
+   ]
+  },
+  "butane": {
+   "seizures": [
+    64,
+    53,
+    42,
+    34,
+    29,
+    30,
+    36,
+    45,
+    56
+   ],
+   "arrests": [
+    60,
+    47,
+    34,
+    26,
+    24,
+    33,
+    29,
+    41,
+    47
+   ]
+  },
+  "nitrous": {
+   "seizures": [
+    61,
+    50,
+    39,
+    31,
+    26,
+    27,
+    33,
+    42,
+    53
+   ],
+   "arrests": [
+    55,
+    42,
+    39,
+    31,
+    29,
+    27,
+    34,
+    36,
+    52
+   ]
+  },
+  "aerosols": {
+   "seizures": [
+    65,
+    74,
+    78,
+    78,
+    73,
+    64,
+    53,
+    42,
+    34
+   ],
+   "arrests": [
+    62,
+    64,
+    67,
+    63,
+    61,
+    51,
+    49,
+    36,
+    28
+   ]
+  },
+  "nitrites": {
+   "seizures": [
+    75,
+    66,
+    55,
+    44,
+    36,
+    31,
+    32,
+    38,
+    47
+   ],
+   "arrests": [
+    70,
+    60,
+    47,
+    44,
+    37,
+    23,
+    32,
+    39,
+    41
+   ]
+  },
+  "acetaminophen": {
+   "seizures": [
+    83,
+    83,
+    78,
+    69,
+    58,
+    47,
+    39,
+    34,
+    35
+   ],
+   "arrests": [
+    74,
+    70,
+    67,
+    58,
+    55,
+    42,
+    34,
+    32,
+    30
+   ]
+  },
+  "ibuprofen": {
+   "seizures": [
+    80,
+    75,
+    66,
+    55,
+    44,
+    36,
+    31,
+    32,
+    38
+   ],
+   "arrests": [
+    68,
+    66,
+    56,
+    54,
+    40,
+    33,
+    30,
+    28,
+    35
+   ]
+  },
+  "nicotine": {
+   "seizures": [
+    78,
+    69,
+    58,
+    47,
+    39,
+    34,
+    35,
+    41,
+    50
+   ],
+   "arrests": [
+    64,
+    66,
+    52,
+    39,
+    31,
+    29,
+    27,
+    34,
+    47
+   ]
+  }
+ }
+}
