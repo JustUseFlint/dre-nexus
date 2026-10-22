@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#05070B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="DRE Nexus">
+<meta name="description" content="Drug recognition research hub and field impairment tracker for sworn law enforcement.">
+<title>DRE Nexus</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+ <div class="edge"></div>
+ <header class="topbar"><button id="tb-back" class="cbtn glass" aria-label="Back"></button><div class="title" id="tb-title"></div><div id="tb-right" style="min-width:44px;display:flex;justify-content:flex-end"></div></header>
+ <main id="view" class="view"></main>
+ <div class="edge-b"></div>
+ <button id="fab" class="fab glass" data-act="openMatrix" hidden aria-label="Open live Matrix"><span id="fab-ic"></span>Matrix</button>
+ <nav id="tabbar" class="tabbar glass" aria-label="Primary"><i class="pill"></i>
+  <a href="#/" data-tab="home"><span class="ti"></span><span>Home</span></a>
+  <a href="#/hub" data-tab="hub"><span class="ti"></span><span>Drugs</span></a>
+  <a href="#/cases" data-tab="cases"><span class="ti"></span><span>Cases</span></a>
+  <a href="#/matrix" data-tab="matrix"><span class="ti"></span><span>Matrix</span></a>
+  <a href="#/law" data-tab="law"><span class="ti"></span><span>Law</span></a>
+ </nav>
+</div>
+<div id="sheet-bg" class="sheet-bg" hidden data-act="closeSheet"></div>
+<div id="sheet" class="sheet" hidden role="dialog" aria-modal="true"></div>
+<div id="toast" class="toast glass" role="status"></div>
+<script src="vendor/jspdf.umd.min.js"></script>
+<script src="vendor/jspdf.autotable.min.js"></script>
+<script src="data.js"></script>
+<script src="art.js"></script>
+<script src="app.js"></script>
+<script src="tracker.js"></script>
+<script src="sfst.js"></script>
+<script src="dre.js"></script>
+<script src="report.js"></script>
+<script>
+ (function(){const ic={home:'home',hub:'hub',cases:'cases',matrix:'matrix',law:'law'};document.querySelectorAll('#tabbar a').forEach(a=>a.querySelector('.ti').innerHTML=A.i[ic[a.dataset.tab]]);document.getElementById('tb-back').innerHTML=A.i.back;document.getElementById('fab-ic').innerHTML=A.i.matrix;})();
+</script>
+</body>
+</html>
