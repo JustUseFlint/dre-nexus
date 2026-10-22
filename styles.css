@@ -118,7 +118,7 @@ html.light .hero{background:radial-gradient(120% 90% at 0% 0%,#CFE0FF 0%,#EEF3FF
 .sheet .sh-head{display:flex;align-items:center;gap:10px;padding:6px 16px 10px;flex:none}
 .sheet .sh-head h3{flex:1;margin:0;font-size:18px}
 .sheet .sh-body{overflow:auto;padding:0 16px calc(var(--sab) + 24px)}
-.toast{position:fixed;left:50%;top:calc(var(--sat) + 12px);transform:translate(-50%,-120%);z-index:90;padding:12px 18px;border-radius:22px;font-weight:600;transition:transform .5s var(--spring);display:flex;gap:8px;align-items:center;max-width:90vw}
+.toast{position:fixed;left:50%;top:calc(var(--sat) + 12px);transform:translate(-50%,-220%);z-index:90;padding:12px 18px;border-radius:22px;font-weight:600;transition:transform .5s var(--spring);display:flex;gap:8px;align-items:center;max-width:90vw}
 .toast.on{transform:translate(-50%,0)}
 .stepper{display:flex;gap:4px;margin:0 0 16px}
 .stepper i{flex:1;height:4px;border-radius:2px;background:var(--line2);transition:background .3s}
@@ -161,3 +161,5 @@ html.rt .glass::before{display:none}
 @media (prefers-contrast:more){:root{--line:rgba(255,255,255,.3);--tx2:#D5DAE3;--tx3:#B0B7C3;--glass-b:rgba(255,255,255,.5)}}
 html.hc{--line:rgba(255,255,255,.3);--tx2:#D5DAE3;--tx3:#B0B7C3;--glass-b:rgba(255,255,255,.5)}
 @media print{.topbar,.tabbar,.fab,.edge,.edge-b{display:none}}
+[hidden]{display:none!important}
+.toast{opacity:0;transition:transform .5s var(--spring),opacity .3s}.toast.on{opacity:1}
